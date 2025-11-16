@@ -34,33 +34,34 @@ Model, özellikle cebirsel ifadeler (örneğin çarpanlara ayırma, özdeşlikle
 
 ## Özellikler
 
-- Geleceğe yönelik LGS soru tahmini  
-- Yapay zekâ ile **soru üretimi**  
-- **Parametrik sorular** (değişkenler ile dinamik yapı)  
-- Eğitim için AR tabanlı görselleştirme  
-- Mobil platform desteği  
-- Modüler altyapı — ileride Türkçe ve diğer konular eklenebilir  
+- Geleceğe yönelik LGS soru tahmini
+- Yapay zekâ ile **soru üretimi**
+- **Parametrik sorular** (değişkenler ile dinamik yapı)
+- Eğitim için AR tabanlı görselleştirme
+- Mobil platform desteği
+- Modüler altyapı — ileride Türkçe ve diğer konular eklenebilir
 
 ---
 
 ## Mimari ve Teknolojiler
 
-- **Model Eğitimi**  
-  - Kaggle veri setleri (geometri problem otomatik formülasyonu)  
-  - DeepMind AlphaGeometry araştırmaları  
-  - GeoGen proje altyapısı  
-  - GAN benzeri üretici modeller  
-  - Manim ile soru şekli oluşturma  
+- **Model Eğitimi**
 
-- **Mobil Uygulama & AR**  
-  - Unity  
-  - AR kütüphaneleri (mobil destek)  
-  - Oyunlaştırılmış kullanıcı deneyimi  
+  - Kaggle veri setleri (geometri problem otomatik formülasyonu)
+  - DeepMind AlphaGeometry araştırmaları
+  - GeoGen proje altyapısı
+  - GAN benzeri üretici modeller
+  - Manim ile soru şekli oluşturma
+- **Mobil Uygulama & AR**
 
-- **Proje Yönetimi**  
-  - GitHub (kod & dokümantasyon)  
-  - Trello (görev takibi)  
-  - SWOT & SMART analizleri  
+  - Unity
+  - AR kütüphaneleri (mobil destek)
+  - Oyunlaştırılmış kullanıcı deneyimi
+- **Proje Yönetimi**
+
+  - GitHub (kod & dokümantasyon)
+  - Trello (görev takibi)
+  - SWOT & SMART analizleri
 
 ---
 
@@ -68,12 +69,12 @@ Model, özellikle cebirsel ifadeler (örneğin çarpanlara ayırma, özdeşlikle
 
 Aşağıda projeyi başlatmak için temel adımlar yer almaktadır:
 
-1. Depoyu klonlayın:  
+1. Depoyu klonlayın:
+
    ```bash
    git clone https://github.com/SIYAKS-ARES/ymgk-qa-ai.git
    cd ymgk-qa-ai
    ```
-
 2. Python sanal ortam oluşturun ve etkinleştirin:
 
    ```bash
@@ -81,13 +82,11 @@ Aşağıda projeyi başlatmak için temel adımlar yer almaktadır:
    source venv/bin/activate  # macOS / Linux  
    venv\Scripts\activate     # Windows  
    ```
-
 3. Bağımlılıkları yükleyin:
 
    ```bash
    pip install -r requirements.txt
    ```
-
 4. Manim ile soru görselleştirme için kurulum:
 
    * Manim’i belgelere göre kurun ve yapılandırın.
@@ -163,7 +162,7 @@ Ayrıca proje yönetiminde Trello ve SWOT / SMART analizleri gibi alanlarda katk
 
 ## Lisans
 
-Bu proje açık kaynaklıdır. Lisans bilgisi burada: **(Lisans türünü buraya ekleyin, örneğin MIT, Apache 2.0)**
+Bu proje MIT Lisansı altında lisanslanmıştır. Ayrıntılar için (./LICENSE) dosyasına bakın.
 
 ---
 

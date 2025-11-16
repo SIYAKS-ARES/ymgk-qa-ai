@@ -72,7 +72,7 @@ Aşağıda projeyi başlatmak için temel adımlar yer almaktadır:
    ```bash
    git clone https://github.com/SIYAKS-ARES/ymgk-qa-ai.git
    cd ymgk-qa-ai
-````
+   ```
 
 2. Python sanal ortam oluşturun ve etkinleştirin:
 
@@ -153,8 +153,11 @@ Ayrıca proje yönetiminde Trello ve SWOT / SMART analizleri gibi alanlarda katk
 
 ## Takım
 
+* Barış Kaya - Scrum Master, VR/AR geliştirme
 * Mehmet Said Hüseyinoğlu — Yapay zekâ modelleme, soru üretimi
-* [Diğer Ekip Üyeleri] — AR / Unity, proje yönetimi, frontend, veri toplama vb.
+* Mehmet Fatih Akbaş - Frontend
+* Utku Alyüz - Backend
+* Özgün Deniz Sevilmiş — Backend
 
 ---
 

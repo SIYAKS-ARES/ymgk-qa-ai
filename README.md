@@ -1,6 +1,6 @@
-# ymgk-qa-ai
+# Yazılım Mühendisliği Güncel Konular QA AI
 
-**ymgk-qa-ai**, LGS (Liseye Geçiş Sınavı) için matematik sorularını yapay zekâ ile **tahmin eden**, **üreten** ve **çözümlerini artırılmış gerçeklik (AR)** ile öğrencilere oyunlaştırılmış bir şekilde öğreten mobil bir eğitim platformudur.
+**Yazılım Mühendisliği Güncel Konular QA AI**, LGS (Liseye Geçiş Sınavı) için matematik sorularını yapay zekâ ile **tahmin eden**, **üreten** ve **çözümlerini artırılmış gerçeklik (AR)** ile öğrencilere oyunlaştırılmış bir şekilde öğreten mobil bir eğitim platformudur.
 
 ---
 

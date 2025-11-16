@@ -6,7 +6,7 @@
 
 ## İçindekiler
 
-- [ymgk-qa-ai](#ymgk-qa-ai)
+- [Yazılım Mühendisliği Güncel Konular QA AI](#Yazılım-Mühendisliği-Güncel-Konular-QA-AI)
   - [İçindekiler](#i̇çindekiler)
   - [Proje Hakkında](#proje-hakkında)
   - [Özellikler](#özellikler)

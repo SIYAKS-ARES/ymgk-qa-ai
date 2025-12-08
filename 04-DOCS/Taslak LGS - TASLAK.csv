@@ -1,0 +1,114 @@
+ID (Dosya-Soru),Soru Metni (OCR),Alt Konu,Zorluk (1-5),Görsel Tipi,Kaynak Tipi
+P02-S01,18 sayısını bölen pozitif tam sayıların toplamı kaçtır?,Bir Doğal Sayının Çarpanları,1,Yok,Başlangıç Sorusu
+P11-S44,54 kg şeker ve 96 kg nohut birbirine karıştırılmadan... eşit torbalara...,EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P21-S84,"Bir metro istasyonuna A yönünden 6 dakikada bir, B yönünden 8 dakikada bir metro gelmektedir...",Aralarında Asal Sayılar,3,Şematik,LGS Örnek Soru
+P48-S151,Aşağıda kenar uzunlukları... özdeş iki kağıt verilmiştir... Şekil I ve Şekil II'deki gibi katlanıyor...,,4,Geometrik Şekil,LGS Örnek Soru
+P59-S173,Her birinin kütlesi 40 kg'dan az... buğday çuvalları... kantar 720 kg gelmektedir.,,5,Resimli,Çıkmış Soru (2020)
+,,,,,
+ID,Soru Metni(OCR),Alt Konu,Zorluk,Görsel Tipi,Kaynak Tipi
+P2-S1,18 sayısını bölen pozitif tam sayıların toplamı kaçtır?,Pozitif Bölenler,1,Görsel Yok,Başlangıç Sorusu
+P2-S2,Aşağıdakilerden hangisi 96 sayısının çarpanlarından biri değildir?,Pozitif Bölenler,1,Görsel Yok,Başlangıç Sorusu
+P2-S3,Aşağıdakilerden hangisi bu dikdörtgensel bölgenin kenar uzunluklarından biri olamaz?,Pozitif Bölenler,2,Görsel Yok,Başlangıç Sorusu
+P2-S4,Bu dikdörtgenlerden çevresi en küçük olanın çevresi kaç cm dir?,Geometrik Mantık,3,Görsel Yok,Başlangıç Sorusu
+P2-S5,Misafirlerin sayısı 6'dan fazla olduğuna göre içilen çay sayısı aşağıdakilerden hangisi olamaz?,Eşit Paylaştırma,2,Görsel Yok,Başlangıç Sorusu
+P2-S6,İki basamaklı en büyük asal sayı ile iki basamaklı en küçük asal sayı arasındaki fark kaçtır?,Pozitif Bölenler,2,Görsel Yok,Başlangıç Sorusu
+P2-S7,Aşağıdaki sayılardan hangisinin asal çarpan sayısı diğerlerinden fazladır?,Pozitif Bölenler,2,Görsel Yok,Başlangıç Sorusu
+P2-S8,Aşağıdakilerden hangisi yanlıştır?,Pozitif Bölenler,1,Görsel Yok,Başlangıç Sorusu
+P3-S9,216 sayısının asal çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir?,Pozitif Bölenler,1,Görsel Yok,Başlangıç Sorusu
+P3-S10,360 sayısının asal çarpanlarının çarpımı şeklinde yazılışı aşağıdakilerden hangisidir?,Pozitif Bölenler,1,Görsel Yok,Başlangıç Sorusu
+P3-S11,42 sayısının asal çarpanlarının toplamı kaçtır?,Pozitif Bölenler,1,Görsel Yok,Başlangıç Sorusu
+P3-S12,120 sayısının farklı asal çarpanlarının toplamı kaçtır?,Pozitif Bölenler,1,Görsel Yok,Başlangıç Sorusu
+P3-S13,Aşağıdakilerden hangisi 90 sayısının asal çarpanlarından biri değildir?,Pozitif Bölenler,1,Görsel Yok,Başlangıç Sorusu
+P3-S14,Aşağıdakilerden hangisi 910 sayısının çarpanlarından biri değildir?,Pozitif Bölenler,2,Görsel Yok,Başlangıç Sorusu
+P3-S15,"Aşağıdaki sayılardan hangisinin asal çarpanları 2,3 ve 5'tir?",Pozitif Bölenler,1,Görsel Yok,Başlangıç Sorusu
+P3-S16,1500 = 2^a . 3^b . 5^c olduğuna göre a + b + c kaçtır?,Pozitif Bölenler,2,Görsel Yok,Başlangıç Sorusu
+P4-S17,Buna göre A + D kaçtır?,Pozitif Bölenler,2,Görsel Yok,Başlangıç Sorusu
+P4-S18,x-y-z ifadesinin değeri kaç olur?,Pozitif Bölenler,3,Görsel Yok,Başlangıç Sorusu
+P4-S19,"180 sayısının a,b,c cinsinden ifadesi aşağıdakilerden hangisidir?",Pozitif Bölenler,2,Görsel Yok,Başlangıç Sorusu
+P4-S20,Buna göre Altuğ'un aklından tuttuğu sayı aşağıdakilerden hangisi olabilir?,Pozitif Bölenler,2,Görsel Yok,Başlangıç Sorusu
+P4-S21,Buna göre aşağıdakilerden hangisi doğrudur?,Pozitif Bölenler,3,Görsel Yok,Başlangıç Sorusu
+P4-S22,Yukarıdaki eşitliklerden hangisi ya da hangileri yanlıştır?,Pozitif Bölenler,1,Görsel Yok,Başlangıç Sorusu
+P4-S23,olduğuna göre A+B kaçtır?,Pozitif Bölenler,2,Görsel Yok,Başlangıç Sorusu
+P4-S24,"Asal çarpanları 3,5,11 olan dört basamaklı en küçük doğal sayı kaçtır?",Katlar(EKOK),3,Görsel Yok,Başlangıç Sorusu
+P5-S25,K'nin alabileceği en küçük değer aşağıdakilerden hangisidir?,Pozitif Bölenler,3,Görsel Yok,Başlangıç Sorusu
+P5-S26,A = x^3 . y^1 . z^2 şeklinde yazılabilen en küçük A doğal sayısı kaçtır?,Pozitif Bölenler,3,Görsel Yok,Başlangıç Sorusu
+P5-S27,Buna göre A sayısı aşağıdakilerden hangisi olamaz?,Pozitif Bölenler,2,Görsel Yok,Başlangıç Sorusu
+P5-S28,Buna göre işleminin sonucu kaçtır?,Pozitif Bölenler,3,Görsel Yok,Başlangıç Sorusu
+P5-S29,"Buna göre, bu halkalar verilen kurala göre çubuklara takıldığında aşağıdaki halkalardan hangisi dışta kalır?",Eşit Paylaştırma,3,Resimli,Başlangıç Sorusu
+P5-S30,"Buna göre, bu kutudaki toplam şeker sayısı kaçtır?",Eşit Paylaştırma,3,Resimli,Başlangıç Sorusu
+P6-S31,B bölgesinin alanının santimetrekare cinsinden değeri aşağıdakilerden hangisi olamaz?,Geometrik Mantık,4,Geometrik Şekil,LGS Örnek Sorusu
+P6-S32,Verilenlere göre bu dikdörtgenlerden birinin çevresinin uzunluğu kaç santimetredir?,Geometrik Mantık,4,Geometrik Şekil,LGS Örnek Sorusu
+P7-S33,"Buna göre Ahmet'in 14 sayısını söylediği oyunda, Deniz aşağıdaki sayılardan hangisini söylerse oyunu kazanır?",Pozitif Bölenler,3,Resimli,LGS Örnek Sorusu
+P7-S34,Buna göre bu kartonun çevresinin uzunluğu en fazla kaç santimetredir?,Geometrik Mantık,4,Geometrik Şekil,LGS Örnek Sorusu
+P8-S35,"Bu kartona yerleştirilen beyaz kart sayısı 3 olduğuna göre, en fazla kaç adet asal çarpan kartı yerleştirilmiştir?",Eşit Paylaştırma,5,Resimli,LGS Örnek Sorusu
+P8-S36,"1'den 7'ye kadar olan sayıların yerleştirildiği çarpım tablosu bulmacasında, eksik olan a ve b değerlerinin toplamının bulunması istenmektedir.",EBOB ve EKOK,3,Şematik,LGS Örnek Sorusu
+P9-S37,"Üzerinde sayılar yazan kartların, asal çarpan sayılarına (1, 2 veya 3 tane) göre kutulara eşit sayıda dağıtılması kuralına dayanarak, ters çevrilmiş karttaki sayının bulunması istenmektedir.",EBOB ve EKOK,3,Şematik,LGS Örnek Sorusu
+P9-S38,"Asansörlerin kendi numaralarının katı olan katlarda durmadığı bir iş yerinde, duran asansör sayısı karşılaştırmasına göre Onur'un kat numarasının bulunması.",EBOB ve EKOK,4,Şematik,LGS Örnek Sorusu
+P10-S39,"Eylül ayı takviminde, günün tarihinin asal çarpan sayısı kadar ders yapan bir öğretmenin ay boyunca yaptığı toplam ders sayısı sorulmaktadır.",EBOB ve EKOK,3,Şematik,LGS Örnek Soru
+P10-S40,"Ürün kodları çarpılarak etiket numarası, birim fiyatları toplanarak satış fiyatı bulunan paketlerde; etiket numarası 270 ve 300 olan iki paketin toplam fiyatı sorulmaktadır.",EBOB ve EKOK,4,Resimli,LGS Örnek Soru
+P11-S41,48 ve 72 sayılarının en büyük ortak böleninin (EBOB) hesaplanması istenmektedir.,EBOB ve EKOK,1,Yok,Başlangıç Sorusu
+P11-S42,"Bir üçgen şemasında a, b ve c harflerinin, bağlı oldukları sayı çiftlerinin EBOB'una eşit olduğu kurala göre a+b+c toplamı sorulmaktadır.",EBOB ve EKOK,2,Şematik,Başlangıç Sorusu
+P11-S43,"EBOB(24, A) = 12 eşitliğini sağlayan en küçük üç basamaklı A sayısının bulunması istenmektedir.",EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P11-S44,54 kg şeker ve 96 kg nohutun birbirine karıştırılmadan ve hiç artmayacak şekilde eşit torbalara paylaştırılması için gereken en az torba sayısı sorulmaktadır.,EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P11-S45,"Kenarları 192 m ve 248 m olan dikdörtgen tarlanın etrafına, köşelere de gelmek şartıyla eşit aralıklarla dikilecek en az fidan sayısı sorulmaktadır.",EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P11-S46,216 cm ve 315 cm boyutlarındaki banyo zeminini kaplayacak eş kare fayansların bir kenar uzunluğunun en fazla kaç cm olabileceği sorulmaktadır.,EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P12-S47,"120 ve 165 cm'lik iki tahta parçasının eş uzunlukta parçalara ayrılması işleminde, her kesim 15 saniye sürdüğüne göre işin toplam süresi sorulmaktadır.",EBOB ve EKOK,3,Yok,Başlangıç Sorusu
+P12-S48,540 cm ve 780 cm kenar uzunluğuna sahip dikdörtgen salonun zeminine hiç boşluk kalmayacak şekilde döşenecek en az eş kare mermer sayısı sorulmaktadır.,EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P12-S49,45 cm ve 72 cm kenar uzunluklarına sahip dikdörtgen yapbozu oluşturan eş kare parçaların sayısının en az kaç olduğu sorulmaktadır.,EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P12-S50,"İki yüzünün alanı 12 cm² ve 18 cm² olan dikdörtgenler prizmasının, tam sayı olan ayrıtlarına göre üretilebilecek en fazla farklı hacim sayısı sorulmaktadır.",EBOB ve EKOK,3,Yok,Başlangıç Sorusu
+P12-S51,"Bir pisti 4 ve 6 dakikada turlayan iki aracın, aynı anda başladıktan kaç dakika sonra tekrar başlangıç çizgisinde yan yana gelecekleri sorulmaktadır.",EBOB ve EKOK,1,Yok,Başlangıç Sorusu
+P12-S52,"9 günde ve 12 günde bir nöbet tutan iki hemşirenin, birlikte nöbet tuttuktan en az kaç gün sonra tekrar birlikte nöbet tutacakları sorulmaktadır.",EBOB ve EKOK,1,Yok,Başlangıç Sorusu
+P13-S53,Asal çarpanlarına ayrılmış hâli verilen A ve B sayılarının en küçük ortak katının (EKOK) hesaplanması.,EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P13-S54,"B sayısı A ile 36'nın EBOB'una, 2 ile 4'ün ise EKOK'una eşit olduğuna göre; verilen seçeneklerden hangisinin A sayısı olamayacağının bulunması.",EBOB ve EKOK,3,Yok,Başlangıç Sorusu
+P13-S55,Üslü ifade biçiminde verilmiş A ve B sayılarının EKOK değerinin EBOB değerine oranının bulunması.,EBOB ve EKOK,3,Yok,Başlangıç Sorusu
+P13-S56,Birbirine oranı 2/3 olan ve EKOK'ları 48 olan iki doğal sayının EBOB'unun bulunması.,EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P13-S57,EKOK'ları 120 olan iki doğal sayının toplamının alabileceği en küçük değerin bulunması.,EBOB ve EKOK,3,Yok,Başlangıç Sorusu
+P13-S58,"14 ile x sayısının EKOK'u 126 olduğuna göre, x'in alabileceği farklı değerlerin toplamının bulunması.",EBOB ve EKOK,3,Yok,Başlangıç Sorusu
+P14-S59,1'den 100'e kadar olan sayılar arasında 12 ve 16'nın ortak katı olan kaç adet sayı olduğunun bulunması.,EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P14-S60,"6 ve 7 günde bir temizlenen iki aracın, aynı gün temizlendikten sonraki 120 gün içinde kaç kez daha aynı gün temizlenecekleri sorulmaktadır.",EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P14-S61,"36 ve 45 dakika arayla çalan iki zilin, 07.30'da birlikte çaldıktan sonra ilk kez saat kaçta tekrar birlikte çalacakları sorulmaktadır.",EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P14-S62,"30 ve 36 dakika arayla çalan iki alarmın, 14.00'te birlikte çaldıktan sonra ikinci kez saat kaçta birlikte çalacakları sorulmaktadır.",EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P14-S63,"Eş karesel zemine sahip iki banyodan biri 18 cm, diğeri 16 cm'lik kare fayanslarla kaplandığında kullanılan toplam fayans sayısının en az kaç olacağı sorulmaktadır.",EBOB ve EKOK,3,Yok,Başlangıç Sorusu
+P14-S64,Kenar uzunlukları 12 cm ve 16 cm olan dikdörtgen parçaların en az kaç tanesi yan yana getirilerek bir kare oluşturulabileceği sorulmaktadır.,EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P15-S65,"Üslü ifadelerle tanımlanmış A ve B sayılarının EKOK değeri verildiğinde, üslerdeki bilinmeyenlerin (x ve y) toplamının hangisi olamayacağı sorulmaktadır.",EBOB ve EKOK,3,Yok,Başlangıç Sorusu
+P15-S66,"23⋅3a şeklinde verilen bir sayı ile 60 sayısının EKOK'u 360 olduğuna göre, a değerinin bulunması istenmektedir.",EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P15-S67,12 ve 18 sayılarına bölündüğünde 5 kalanını veren en küçük üç basamaklı doğal sayının bulunması.,EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P15-S68,12 ve 16 sayılarına bölündüğünde 7 kalanını veren en küçük üç basamaklı doğal sayının birler basamağındaki rakam sorulmaktadır.,EBOB ve EKOK,3,Yok,Başlangıç Sorusu
+P15-S69,Üçer ve dörder inildiğinde her seferinde 1 basamak artan bir merdivenin basamak sayısının en az kaç olduğu sorulmaktadır.,EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P15-S70,"Dörder ve altışar sayıldığında 3 bilye artan bir kutudaki bilye sayısının 400'den fazla olduğu bilindiğine göre, en az kaç bilye olduğu sorulmaktadır.",EBOB ve EKOK,3,Yok,Başlangıç Sorusu
+P16-S71,700 cm'den fazla uzunluktaki 30 cm ve 36 cm'lik demir çubuklarla tabure yapma.,EBOB ve EKOK,3,Şematik,Başlangıç Sorusu
+P16-S72,"Ayşe, Mehmet ve Kemal'in ceviz sayılarının oranları ve en az ceviz durumunda yanlış ifadeyi bulma.",EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P16-S73,"İki eşit şeridin boyanma kuralları verilmiş, ilk kez aynı hizada boyandığı yerdeki yanlış ifadeyi bulma.",EBOB ve EKOK,3,Şematik,Başlangıç Sorusu
+P17-S74,"Zeytinyağının yarısı 250 ml, diğer yarısı 400 ml şişelere; 8000 TL'den fazla gelir elde etme.",EBOB ve EKOK,4,Resimli,Başlangıç Sorusu
+P17-S75,İki kutudaki boncukların 150'den az ve eşit olma; kapak kapatıldığında artan boncuk sayıları (kalanlı EKOK).,EBOB ve EKOK,4,Şematik,Başlangıç Sorusu
+P18-S76,"İki doğal sayıdan biri diğerinin 3 katı, EKOK'u 54 ise EBOB'u kaçtır?",EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P18-S77,"a · 18 = EKOK(a, 18) ise bu eşitliği sağlayan 18'den küçük kaç tane a doğal sayısı vardır?",EBOB ve EKOK,3,Yok,Başlangıç Sorusu
+P18-S78,45 ile 75 sayılarının EBOB'u ile EKOK'unun çarpımı kaçtır?,EBOB ve EKOK,1,Yok,Başlangıç Sorusu
+P18-S79,"İki sayının EKOK'u 72, EBOB'u 12. Sayılardan biri 24 ise diğeri kaçtır?",EBOB ve EKOK,2,Yok,Başlangıç Sorusu
+P19-S80,Sarı (6 cm + 2 cm artmış) ve mavi (10 cm + 2 cm artmış) kartonların uzun kenarının en fazla değeri; parça sayıları farkı 10'dan az.,EBOB ve EKOK,4,Şematik,LGS Örnek Soru
+P19-S81,275 kırmızı ve 135 yeşil elmanın eşit paketlenmesi; kırmızı elmanın 5'li ve 8'li paketleme sayısının yeşil paket sayısına eşit olması.,EBOB ve EKOK,4,Yok,LGS Örnek Soru
+P20-S82,"K, L, M, N, P şehirleri arası mesafeler verilmiş, 100 km/sa ve 120 km/sa hızla giden iki otobüsün mola tesisinin hangi iki şehir arasında olduğunu bulma.",EBOB ve EKOK,3,Şematik,LGS Örnek Soru
+P20-S83,A ve B filmlerinin süreleri ve başlama saatleri verilmiş; aynı anda başladıklarında salona girenlerin en az bekleme süresi.,EBOB ve EKOK,4,Şematik,LGS Örnek Soru
+P21-S84,"A yönünden 6, B yönünden 8 dakikada bir metro gelmekte. 8.40'ta aynı anda gelmişler. Beren istasyona geldiğinde, 5 dakika beklemesi kalmış; saati bulma.",EBOB ve EKOK,4,Resimli,LGS Örnek Soru
+P21-S85,"Başak ve Pınar'ın ürün alımı; A ürünü 120 TL/kg, B ürünü 70 TL/kg. Toplam kütle 30 kg'dan az, toplam kütleler eşit. Pınar'ın ödediği TL'yi bulma.",EBOB ve EKOK,4,Yok,LGS Örnek Soru
+P22-S86,150 L bal ve 90 L pekmezin eşit hacimli kaplara paylaşımı; en az sayıda kap kullanımı; kap sayısının 32'den fazla olması.,EBOB ve EKOK,4,Yok,LGS Örnek Soru
+P22-S87,"22 cm ve 16 cm çubukların 8 cm'lik bağlantı parçalarıyla birleştirilmesi; Gamze ve Melis'in eşit uzunlukta, 1 m'den fazla çubuk elde etmesi.",EBOB ve EKOK,4,Şematik,LGS Örnek Soru
+P23-S88,"Üç farklı renkte 5'er adet boncuk; her bir renk farklı asal sayıyı temsil etmekte; çubuklara yerleştirilme ve 150, A, B kartlarındaki sayıların çarpımı.",EBOB ve EKOK,3,Şematik,LGS Örnek Soru
+P23-S89,"48 günlük tiyatro planı; A salonu 2 günde, B salonu 3 günde bir gösteri yapacak. A'da 17 gösteri yapıldığına göre B'de kaç gösteri yapılmıştır?",EBOB ve EKOK,4,Yok,LGS Örnek Soru
+P24-S90,"160 cm ve 96 cm demir çubuklardan eşit uzunlukta parçalar kesme; sarıdan 4, maviden 4 parçanın birleşmesiyle çerçeve yapımı; aradaki en az fark.",EBOB ve EKOK,4,Şematik,LGS Örnek Soru
+P24-S91,648 adet yumurtanın 30'dan az ve eşit sayıda kolilere konulması; satılmayan yumurta sayısının 360 olması; en az kaç koli yumurta satılmıştır?,EBOB ve EKOK,4,Yok,LGS Örnek Soru
+P25-S92,"A (48), B (32), C (60) kurslarındaki öğrencilerin sınıflara 10'dan fazla, 20'den az kişi yerleştirilmesi; sınıfların alt/üst katlarda eşit öğrenci kısıtlamaları.",EBOB ve EKOK,5,Şematik,LGS Örnek Soru
+P25-S93,"Mavi (M), Kırmızı (K) ve Yeşil (Y) flamaların eşit aralıklarla (ardışık) yerleştirilmesi; başlangıç/bitiş noktaları ve flama renk kısıtlamalarına göre en az mesafeyi bulma.",EBOB ve EKOK,4,Şematik,LGS Örnek Soru
+P26-S94,4 cm kısa kenarlı iki çitanın kesilerek yeşil ve turuncu kare çerçeveler yapılması; çevresi 56 cm olan kare çerçeve için en az kaç çita kullanılmıştır?,EBOB ve EKOK,4,Şematik,LGS Örnek Soru
+P26-S95,40 cm ve 70 cm'lik dikdörtgen taşların 30 metreden az düz bir kaldırıma boşluksuz yerleştirilmesi; kare prizma şeklindeki sarı taş sayısının en çok kaç olduğunu bulma.,EBOB ve EKOK,4,Şematik,LGS Örnek Soru
+P27-S96,"640 kırmızı ve 520 mavi bilyenin eşit sayıda ve aynı renkte kutulanması; satılmayan mavi kutu sayısının, satılmayan kırmızı kutu sayısının 3 katı olması; mavi kutunun fiyatını bulma.",EBOB ve EKOK,5,Resimli,LGS Örnek Soru
+P27-S97,Diktörtgen biçimindeki iş yerinin alanları verilmiş; tüm bölümlerin kenar uzunlukları doğal sayı. Arşiv ve Mutfak bölümlerinin alanları toplamının en az kaç olduğunu bulma.,EBOB ve EKOK,5,Şematik,LGS Örnek Soru
+P28-S98,İki kumbarada (150 ve 90 adet 1 TL) kalan para miktarının her gün sonunda EBOB'u olup olmadığını sorgulama; Beren'in her gün birinden diğerinde kalan para kadar harcaması.,EBOB ve EKOK,4,Resimli,LGS Örnek Soru
+P28-S99,"60 kırmızı, 72 mavi, 42 yeşil kalemin en fazla 15 kalem alan kutulara, eşit sayıda ve tek renkte yerleştirilmesi; satılan en fazla kutu sayısını bulma.",EBOB ve EKOK,4,Resimli,LGS Örnek Soru
+P29-S100,"4 traktörün 1 dekar arazi için yakıt miktarı; A, B (50 dekar altı) ve C, D (120 dekar altı) ile eşit miktarda yakıt tüketimi; toplam yakıtın en fazla kaç TL olduğu.",EBOB ve EKOK,4,Şematik,LGS Örnek Soru
+P29-S101,Domates ve biberden salça yapma; salçaların karışmayacak ve artmayacak şekilde eşit büyüklükteki kavanozlara doldurulması; en az kaç kavanoz kullanılır?,EBOB ve EKOK,3,Yok,LGS Örnek Soru
+P30-S102,"3 koşucunun (Ali, Eren, Mehmet) parkurda koşma süreleri; yarım saat ve bir saat içinde birbirleriyle karşılaşma durumlarını inceleme.",EBOB ve EKOK,4,Geometrik Şekil,LGS Örnek Soru
+P30-S103,"ki radyoda (A: 12 dk müzik + 4 dk reklam, B: 16 dk müzik + 4 dk reklam) yayınlanan programlar; saat 10.00'da başlayan programdan sonra Banu'nun müziğe denk geldiği saati bulma.",EBOB ve EKOK,3,Yok,LGS Örnek Soru
+P31-S104,"4 çeşit şeker (45, 54, 60, 72 adet) ikişerli gruplanarak poşetlenmesi; her poşette 3'ten fazla şeker olması; poşetteki şeker sayısı farkının en fazla kaç olduğunu bulma.",EBOB ve EKOK,4,Resimli,LGS Örnek Soru
+P31-S105,40 cm ve 30 cm tekerlek merkezlerinin yerden yüksekliği olan iki bisikletin aynı mesafeyi tekerleklerinin tam tur atarak tamamlaması; en az kaç santimetre mesafe denediği.,EBOB ve EKOK,3,Resimli,LGS Örnek Soru
+P32-S106,Sınıf numaralarının (1'den 5'e kadar kat numaraları ve 1-5'ten salona numaraları) tek bir asal çarpanı olması; bu salon numaralarının EKOK'unu bulma.,EBOB ve EKOK,4,Resimli,LGS Örnek Soru

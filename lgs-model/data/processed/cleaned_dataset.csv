@@ -1,0 +1,177 @@
+Soru_MetniOCR,Alt_Konu,Zorluk,Gorsel_Tipi,Kaynak_Tipi,sample_weight
+18 sayısını bölen pozitif tam sayıların toplamı kaçtır?,carpanlar,1,yok,baslangic,0.3
+Aşağıdakilerden hangisi 96 sayısının çarpanlarından biri değildir?,carpanlar,1,yok,baslangic,0.3
+Aşağıdakilerden hangisi bu dikdörtgensel bölgenin kenar uzunluklarından biri olamaz?,carpanlar,2,yok,baslangic,0.3
+Bu dikdörtgenlerden çevresi en küçük olanın çevresi kaç cm dir?,carpanlar,3,yok,baslangic,0.3
+Misafirlerin sayısı 6'dan fazla olduğuna göre içilen çay sayısı aşağıdakilerden hangisi olamaz?,carpanlar,2,yok,baslangic,0.3
+İki basamaklı en büyük asal sayı ile iki basamaklı en küçük asal sayı arasındaki fark kaçtır?,carpanlar,2,yok,baslangic,0.3
+Aşağıdaki sayılardan hangisinin asal çarpan sayısı diğerlerinden fazladır?,carpanlar,2,yok,baslangic,0.3
+Aşağıdakilerden hangisi yanlıştır?,carpanlar,1,yok,baslangic,0.3
+216 sayısının asal çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir?,carpanlar,1,yok,baslangic,0.3
+360 sayısının asal çarpanlarının çarpımı şeklinde yazılışı aşağıdakilerden hangisidir?,carpanlar,1,yok,baslangic,0.3
+42 sayısının asal çarpanlarının toplamı kaçtır?,carpanlar,1,yok,baslangic,0.3
+120 sayısının farklı asal çarpanlarının toplamı kaçtır?,carpanlar,1,yok,baslangic,0.3
+Aşağıdakilerden hangisi 90 sayısının asal çarpanlarından biri değildir?,carpanlar,1,yok,baslangic,0.3
+Aşağıdakilerden hangisi 910 sayısının çarpanlarından biri değildir?,carpanlar,2,yok,baslangic,0.3
+"Aşağıdaki sayılardan hangisinin asal çarpanları 2,3 ve 5'tir?",carpanlar,1,yok,baslangic,0.3
+1500 = 2^a . 3^b . 5^c olduğuna göre a + b + c kaçtır?,carpanlar,2,yok,baslangic,0.3
+Buna göre A + D kaçtır?,carpanlar,2,yok,baslangic,0.3
+x-y-z ifadesinin değeri kaç olur?,carpanlar,3,yok,baslangic,0.3
+"180 sayısının a,b,c cinsinden ifadesi aşağıdakilerden hangisidir?",carpanlar,2,yok,baslangic,0.3
+Buna göre Altuğ'un aklından tuttuğu sayı aşağıdakilerden hangisi olabilir?,carpanlar,2,yok,baslangic,0.3
+Buna göre aşağıdakilerden hangisi doğrudur?,carpanlar,3,yok,baslangic,0.3
+Yukarıdaki eşitliklerden hangisi ya da hangileri yanlıştır?,carpanlar,1,yok,baslangic,0.3
+olduğuna göre A+B kaçtır?,carpanlar,2,yok,baslangic,0.3
+"Asal çarpanları 3,5,11 olan dört basamaklı en küçük doğal sayı kaçtır?",carpanlar,3,yok,baslangic,0.3
+K'nin alabileceği en küçük değer aşağıdakilerden hangisidir?,carpanlar,3,yok,baslangic,0.3
+A = x^3 . y^1 . z^2 şeklinde yazılabilen en küçük A doğal sayısı kaçtır?,carpanlar,3,yok,baslangic,0.3
+Buna göre A sayısı aşağıdakilerden hangisi olamaz?,carpanlar,2,yok,baslangic,0.3
+Buna göre işleminin sonucu kaçtır?,carpanlar,3,yok,baslangic,0.3
+"Buna göre, bu halkalar verilen kurala göre çubuklara takıldığında aşağıdaki halkalardan hangisi dışta kalır?",carpanlar,3,resimli,baslangic,0.3
+"Buna göre, bu kutudaki toplam şeker sayısı kaçtır?",carpanlar,3,resimli,baslangic,0.3
+B bölgesinin alanının santimetrekare cinsinden değeri aşağıdakilerden hangisi olamaz?,carpanlar,4,geometrik_sekil,ornek,0.8
+Verilenlere göre bu dikdörtgenlerden birinin çevresinin uzunluğu kaç santimetredir?,carpanlar,4,geometrik_sekil,ornek,0.8
+"Buna göre Ahmet'in 14 sayısını söylediği oyunda, Deniz aşağıdaki sayılardan hangisini söylerse oyunu kazanır?",carpanlar,3,resimli,ornek,0.8
+Buna göre bu kartonun çevresinin uzunluğu en fazla kaç santimetredir?,carpanlar,4,geometrik_sekil,ornek,0.8
+"Bu kartona yerleştirilen beyaz kart sayısı 3 olduğuna göre, en fazla kaç adet asal çarpan kartı yerleştirilmiştir?",carpanlar,5,resimli,ornek,0.8
+"1'den 7'ye kadar olan sayıların yerleştirildiği çarpım tablosu bulmacasında, eksik olan a ve b değerlerinin toplamının bulunması istenmektedir.",carpanlar,3,sematik,ornek,0.8
+"Üzerinde sayılar yazan kartların, asal çarpan sayılarına (1, 2 veya 3 tane) göre kutulara eşit sayıda dağıtılması kuralına dayanarak, ters çevrilmiş karttaki sayının bulunması istenmektedir.",carpanlar,3,sematik,ornek,0.8
+"Asansörlerin kendi numaralarının katı olan katlarda durmadığı bir iş yerinde, duran asansör sayısı karşılaştırmasına göre Onur'un kat numarasının bulunması.",carpanlar,4,sematik,ornek,0.8
+"Eylül ayı takviminde, günün tarihinin asal çarpan sayısı kadar ders yapan bir öğretmenin ay boyunca yaptığı toplam ders sayısı sorulmaktadır.",carpanlar,3,sematik,ornek,0.8
+"Ürün kodları çarpılarak etiket numarası, birim fiyatları toplanarak satış fiyatı bulunan paketlerde; etiket numarası 270 ve 300 olan iki paketin toplam fiyatı sorulmaktadır.",carpanlar,4,resimli,ornek,0.8
+48 ve 72 sayılarının en büyük ortak böleninin (EBOB) hesaplanması istenmektedir.,ebob_ekok,1,yok,baslangic,0.3
+"Bir üçgen şemasında a, b ve c harflerinin, bağlı oldukları sayı çiftlerinin EBOB'una eşit olduğu kurala göre a+b+c toplamı sorulmaktadır.",ebob_ekok,2,sematik,baslangic,0.3
+"EBOB(24, A) = 12 eşitliğini sağlayan en küçük üç basamaklı A sayısının bulunması istenmektedir.",ebob_ekok,2,yok,baslangic,0.3
+54 kg şeker ve 96 kg nohutun birbirine karıştırılmadan ve hiç artmayacak şekilde eşit torbalara paylaştırılması için gereken en az torba sayısı sorulmaktadır.,ebob_ekok,2,yok,baslangic,0.3
+"Kenarları 192 m ve 248 m olan dikdörtgen tarlanın etrafına, köşelere de gelmek şartıyla eşit aralıklarla dikilecek en az fidan sayısı sorulmaktadır.",ebob_ekok,2,yok,baslangic,0.3
+216 cm ve 315 cm boyutlarındaki banyo zeminini kaplayacak eş kare fayansların bir kenar uzunluğunun en fazla kaç cm olabileceği sorulmaktadır.,ebob_ekok,2,yok,baslangic,0.3
+"120 ve 165 cm'lik iki tahta parçasının eş uzunlukta parçalara ayrılması işleminde, her kesim 15 saniye sürdüğüne göre işin toplam süresi sorulmaktadır.",ebob_ekok,3,yok,baslangic,0.3
+540 cm ve 780 cm kenar uzunluğuna sahip dikdörtgen salonun zeminine hiç boşluk kalmayacak şekilde döşenecek en az eş kare mermer sayısı sorulmaktadır.,ebob_ekok,2,yok,baslangic,0.3
+45 cm ve 72 cm kenar uzunluklarına sahip dikdörtgen yapbozu oluşturan eş kare parçaların sayısının en az kaç olduğu sorulmaktadır.,ebob_ekok,2,yok,baslangic,0.3
+"İki yüzünün alanı 12 cm² ve 18 cm² olan dikdörtgenler prizmasının, tam sayı olan ayrıtlarına göre üretilebilecek en fazla farklı hacim sayısı sorulmaktadır.",ebob_ekok,3,yok,baslangic,0.3
+"Bir pisti 4 ve 6 dakikada turlayan iki aracın, aynı anda başladıktan kaç dakika sonra tekrar başlangıç çizgisinde yan yana gelecekleri sorulmaktadır.",ebob_ekok,1,yok,baslangic,0.3
+"9 günde ve 12 günde bir nöbet tutan iki hemşirenin, birlikte nöbet tuttuktan en az kaç gün sonra tekrar birlikte nöbet tutacakları sorulmaktadır.",ebob_ekok,1,yok,baslangic,0.3
+Asal çarpanlarına ayrılmış hâli verilen A ve B sayılarının en küçük ortak katının (EKOK) hesaplanması.,ebob_ekok,2,yok,baslangic,0.3
+"B sayısı A ile 36'nın EBOB'una, 2 ile 4'ün ise EKOK'una eşit olduğuna göre; verilen seçeneklerden hangisinin A sayısı olamayacağının bulunması.",ebob_ekok,3,yok,baslangic,0.3
+Üslü ifade biçiminde verilmiş A ve B sayılarının EKOK değerinin EBOB değerine oranının bulunması.,ebob_ekok,3,yok,baslangic,0.3
+Birbirine oranı 2/3 olan ve EKOK'ları 48 olan iki doğal sayının EBOB'unun bulunması.,ebob_ekok,2,yok,baslangic,0.3
+EKOK'ları 120 olan iki doğal sayının toplamının alabileceği en küçük değerin bulunması.,ebob_ekok,3,yok,baslangic,0.3
+"14 ile x sayısının EKOK'u 126 olduğuna göre, x'in alabileceği farklı değerlerin toplamının bulunması.",ebob_ekok,3,yok,baslangic,0.3
+1'den 100'e kadar olan sayılar arasında 12 ve 16'nın ortak katı olan kaç adet sayı olduğunun bulunması.,ebob_ekok,2,yok,baslangic,0.3
+"6 ve 7 günde bir temizlenen iki aracın, aynı gün temizlendikten sonraki 120 gün içinde kaç kez daha aynı gün temizlenecekleri sorulmaktadır.",ebob_ekok,2,yok,baslangic,0.3
+"36 ve 45 dakika arayla çalan iki zilin, 07.30'da birlikte çaldıktan sonra ilk kez saat kaçta tekrar birlikte çalacakları sorulmaktadır.",ebob_ekok,2,yok,baslangic,0.3
+"30 ve 36 dakika arayla çalan iki alarmın, 14.00'te birlikte çaldıktan sonra ikinci kez saat kaçta birlikte çalacakları sorulmaktadır.",ebob_ekok,2,yok,baslangic,0.3
+"Eş karesel zemine sahip iki banyodan biri 18 cm, diğeri 16 cm'lik kare fayanslarla kaplandığında kullanılan toplam fayans sayısının en az kaç olacağı sorulmaktadır.",ebob_ekok,3,yok,baslangic,0.3
+Kenar uzunlukları 12 cm ve 16 cm olan dikdörtgen parçaların en az kaç tanesi yan yana getirilerek bir kare oluşturulabileceği sorulmaktadır.,ebob_ekok,2,yok,baslangic,0.3
+"Üslü ifadelerle tanımlanmış A ve B sayılarının EKOK değeri verildiğinde, üslerdeki bilinmeyenlerin (x ve y) toplamının hangisi olamayacağı sorulmaktadır.",ebob_ekok,3,yok,baslangic,0.3
+"23⋅3a şeklinde verilen bir sayı ile 60 sayısının EKOK'u 360 olduğuna göre, a değerinin bulunması istenmektedir.",ebob_ekok,2,yok,baslangic,0.3
+12 ve 18 sayılarına bölündüğünde 5 kalanını veren en küçük üç basamaklı doğal sayının bulunması.,ebob_ekok,2,yok,baslangic,0.3
+12 ve 16 sayılarına bölündüğünde 7 kalanını veren en küçük üç basamaklı doğal sayının birler basamağındaki rakam sorulmaktadır.,ebob_ekok,3,yok,baslangic,0.3
+Üçer ve dörder inildiğinde her seferinde 1 basamak artan bir merdivenin basamak sayısının en az kaç olduğu sorulmaktadır.,ebob_ekok,2,yok,baslangic,0.3
+"Dörder ve altışar sayıldığında 3 bilye artan bir kutudaki bilye sayısının 400'den fazla olduğu bilindiğine göre, en az kaç bilye olduğu sorulmaktadır.",ebob_ekok,3,yok,baslangic,0.3
+700 cm'den fazla uzunluktaki 30 cm ve 36 cm'lik demir çubuklarla tabure yapma.,ebob_ekok,3,sematik,baslangic,0.3
+"Ayşe, Mehmet ve Kemal'in ceviz sayılarının oranları ve en az ceviz durumunda yanlış ifadeyi bulma.",ebob_ekok,2,yok,baslangic,0.3
+"İki eşit şeridin boyanma kuralları verilmiş, ilk kez aynı hizada boyandığı yerdeki yanlış ifadeyi bulma.",ebob_ekok,3,sematik,baslangic,0.3
+"Zeytinyağının yarısı 250 ml, diğer yarısı 400 ml şişelere; 8000 TL'den fazla gelir elde etme.",ebob_ekok,4,resimli,baslangic,0.3
+İki kutudaki boncukların 150'den az ve eşit olma; kapak kapatıldığında artan boncuk sayıları (kalanlı EKOK).,ebob_ekok,4,sematik,baslangic,0.3
+"İki doğal sayıdan biri diğerinin 3 katı, EKOK'u 54 ise EBOB'u kaçtır?",ebob_ekok,2,yok,baslangic,0.3
+"a · 18 = EKOK(a, 18) ise bu eşitliği sağlayan 18'den küçük kaç tane a doğal sayısı vardır?",ebob_ekok,3,yok,baslangic,0.3
+45 ile 75 sayılarının EBOB'u ile EKOK'unun çarpımı kaçtır?,ebob_ekok,1,yok,baslangic,0.3
+"İki sayının EKOK'u 72, EBOB'u 12. Sayılardan biri 24 ise diğeri kaçtır?",ebob_ekok,2,yok,baslangic,0.3
+Sarı (6 cm + 2 cm artmış) ve mavi (10 cm + 2 cm artmış) kartonların uzun kenarının en fazla değeri; parça sayıları farkı 10'dan az.,ebob_ekok,4,sematik,ornek,0.8
+275 kırmızı ve 135 yeşil elmanın eşit paketlenmesi; kırmızı elmanın 5'li ve 8'li paketleme sayısının yeşil paket sayısına eşit olması.,ebob_ekok,4,yok,ornek,0.8
+"K, L, M, N, P şehirleri arası mesafeler verilmiş, 100 km/sa ve 120 km/sa hızla giden iki otobüsün mola tesisinin hangi iki şehir arasında olduğunu bulma.",ebob_ekok,3,sematik,ornek,0.8
+A ve B filmlerinin süreleri ve başlama saatleri verilmiş; aynı anda başladıklarında salona girenlerin en az bekleme süresi.,ebob_ekok,4,sematik,ornek,0.8
+"A yönünden 6, B yönünden 8 dakikada bir metro gelmekte. 8.40'ta aynı anda gelmişler. Beren istasyona geldiğinde, 5 dakika beklemesi kalmış; saati bulma.",ebob_ekok,4,resimli,ornek,0.8
+"Başak ve Pınar'ın ürün alımı; A ürünü 120 TL/kg, B ürünü 70 TL/kg. Toplam kütle 30 kg'dan az, toplam kütleler eşit. Pınar'ın ödediği TL'yi bulma.",ebob_ekok,4,yok,ornek,0.8
+150 L bal ve 90 L pekmezin eşit hacimli kaplara paylaşımı; en az sayıda kap kullanımı; kap sayısının 32'den fazla olması.,ebob_ekok,4,yok,ornek,0.8
+"22 cm ve 16 cm çubukların 8 cm'lik bağlantı parçalarıyla birleştirilmesi; Gamze ve Melis'in eşit uzunlukta, 1 m'den fazla çubuk elde etmesi.",ebob_ekok,4,sematik,ornek,0.8
+"Üç farklı renkte 5'er adet boncuk; her bir renk farklı asal sayıyı temsil etmekte; çubuklara yerleştirilme ve 150, A, B kartlarındaki sayıların çarpımı.",ebob_ekok,3,sematik,ornek,0.8
+"48 günlük tiyatro planı; A salonu 2 günde, B salonu 3 günde bir gösteri yapacak. A'da 17 gösteri yapıldığına göre B'de kaç gösteri yapılmıştır?",ebob_ekok,4,yok,ornek,0.8
+"160 cm ve 96 cm demir çubuklardan eşit uzunlukta parçalar kesme; sarıdan 4, maviden 4 parçanın birleşmesiyle çerçeve yapımı; aradaki en az fark.",ebob_ekok,4,sematik,ornek,0.8
+648 adet yumurtanın 30'dan az ve eşit sayıda kolilere konulması; satılmayan yumurta sayısının 360 olması; en az kaç koli yumurta satılmıştır?,ebob_ekok,4,yok,ornek,0.8
+"A (48), B (32), C (60) kurslarındaki öğrencilerin sınıflara 10'dan fazla, 20'den az kişi yerleştirilmesi; sınıfların alt/üst katlarda eşit öğrenci kısıtlamaları.",ebob_ekok,5,sematik,ornek,0.8
+"Mavi (M), Kırmızı (K) ve Yeşil (Y) flamaların eşit aralıklarla (ardışık) yerleştirilmesi; başlangıç/bitiş noktaları ve flama renk kısıtlamalarına göre en az mesafeyi bulma.",ebob_ekok,4,sematik,ornek,0.8
+4 cm kısa kenarlı iki çitanın kesilerek yeşil ve turuncu kare çerçeveler yapılması; çevresi 56 cm olan kare çerçeve için en az kaç çita kullanılmıştır?,ebob_ekok,4,sematik,ornek,0.8
+40 cm ve 70 cm'lik dikdörtgen taşların 30 metreden az düz bir kaldırıma boşluksuz yerleştirilmesi; kare prizma şeklindeki sarı taş sayısının en çok kaç olduğunu bulma.,ebob_ekok,4,sematik,ornek,0.8
+"640 kırmızı ve 520 mavi bilyenin eşit sayıda ve aynı renkte kutulanması; satılmayan mavi kutu sayısının, satılmayan kırmızı kutu sayısının 3 katı olması; mavi kutunun fiyatını bulma.",ebob_ekok,5,resimli,ornek,0.8
+Diktörtgen biçimindeki iş yerinin alanları verilmiş; tüm bölümlerin kenar uzunlukları doğal sayı. Arşiv ve Mutfak bölümlerinin alanları toplamının en az kaç olduğunu bulma.,ebob_ekok,5,sematik,ornek,0.8
+İki kumbarada (150 ve 90 adet 1 TL) kalan para miktarının her gün sonunda EBOB'u olup olmadığını sorgulama; Beren'in her gün birinden diğerinde kalan para kadar harcaması.,ebob_ekok,4,resimli,ornek,0.8
+"60 kırmızı, 72 mavi, 42 yeşil kalemin en fazla 15 kalem alan kutulara, eşit sayıda ve tek renkte yerleştirilmesi; satılan en fazla kutu sayısını bulma.",ebob_ekok,4,resimli,ornek,0.8
+"4 traktörün 1 dekar arazi için yakıt miktarı; A, B (50 dekar altı) ve C, D (120 dekar altı) ile eşit miktarda yakıt tüketimi; toplam yakıtın en fazla kaç TL olduğu.",ebob_ekok,4,sematik,ornek,0.8
+Domates ve biberden salça yapma; salçaların karışmayacak ve artmayacak şekilde eşit büyüklükteki kavanozlara doldurulması; en az kaç kavanoz kullanılır?,ebob_ekok,3,yok,ornek,0.8
+"3 koşucunun (Ali, Eren, Mehmet) parkurda koşma süreleri; yarım saat ve bir saat içinde birbirleriyle karşılaşma durumlarını inceleme.",ebob_ekok,4,geometrik_sekil,ornek,0.8
+"ki radyoda (A: 12 dk müzik + 4 dk reklam, B: 16 dk müzik + 4 dk reklam) yayınlanan programlar; saat 10.00'da başlayan programdan sonra Banu'nun müziğe denk geldiği saati bulma.",ebob_ekok,3,yok,ornek,0.8
+"4 çeşit şeker (45, 54, 60, 72 adet) ikişerli gruplanarak poşetlenmesi; her poşette 3'ten fazla şeker olması; poşetteki şeker sayısı farkının en fazla kaç olduğunu bulma.",ebob_ekok,4,resimli,ornek,0.8
+40 cm ve 30 cm tekerlek merkezlerinin yerden yüksekliği olan iki bisikletin aynı mesafeyi tekerleklerinin tam tur atarak tamamlaması; en az kaç santimetre mesafe denediği.,ebob_ekok,3,resimli,ornek,0.8
+Sınıf numaralarının (1'den 5'e kadar kat numaraları ve 1-5'ten salona numaraları) tek bir asal çarpanı olması; bu salon numaralarının EKOK'unu bulma.,ebob_ekok,4,resimli,ornek,0.8
+"Dikdörtgen şeklindeki kartonların kenar uzunlukları ve alanları verilmiş, bu kartonların birleştirilmesiyle oluşturulan yeni şeklin alanının en fazla kaç olacağı sorulmaktadır.",ebob_ekok,4,geometrik_sekil,ornek,0.8
+"Verilen iki farklı ürünün (veya nesnenin) kütleleri/sayıları üzerinden, artmadan eşit miktarlarda paylaştırılması veya paketlenmesi durumu; en az paket sayısı veya maliyet hesabı sorulmaktadır.",ebob_ekok,3,resimli,ornek,0.8
+"Belirli uzunluktaki bir rafa veya alana, iki farklı boyuttaki kutuların/cisimlerin boşluk kalmayacak şekilde dizilmesi; raf uzunluğunun veya cisim sayısının bulunması problemi.",ebob_ekok,4,sematik,ornek,0.8
+"Verilen iki farklı ürünün (veya nesnenin) kütleleri/sayıları üzerinden, artmadan eşit miktarlarda paylaştırılması veya paketlenmesi durumu; en az paket sayısı veya maliyet hesabı sorulmaktadır.",ebob_ekok,3,resimli,ornek,0.8
+"Belirli uzunluktaki bir rafa veya alana, iki farklı boyuttaki kutuların/cisimlerin boşluk kalmayacak şekilde dizilmesi; raf uzunluğunun veya cisim sayısının bulunması problemi.",ebob_ekok,4,sematik,ornek,0.8
+"İki farklı uzunluktaki veya miktardaki nesnenin (çubuk, kumaş vb.) hiç artmayacak şekilde eşit ve en büyük parçalara ayrılması; oluşan parça sayısı veya kesim işlemi sayısı sorulmaktadır.",ebob_ekok,3,sematik,ornek,0.8
+"Farklı zaman aralıklarında gerçekleşen iki olayın (zil çalması, nöbet tutma, araç seferi vb.) aynı anda gerçekleştiği anların veya bu karşılaşmaların sayısının bulunması problemi.",ebob_ekok,3,resimli,ornek,0.8
+"Üç farklı markanın (A, B, C) ürünlerinin veya cihazlarının belirli periyotlarla çalışma/durma süreleri verilmiş; bu cihazların aynı anda çalışmaya/durmaya başladıkları anların veya sürelerin hesaplanması problemi.",ebob_ekok,4,sematik,ornek,0.8
+"Bir toplantı salonuna veya sınıfa, genişlikleri farklı iki tür koltuğun/sıranın, aralarında boşluk kalmayacak ve duvarla bitişik olacak şekilde dizilmesi; salon genişliği veya koltuk sayısı sorulmaktadır.",ebob_ekok,3,resimli,ornek,0.8
+"Farklı uzunluklara sahip iki veya daha fazla rafın/çubuğun, hiç artmayacak şekilde eşit uzunlukta en büyük parçalara bölünmesi; oluşan parça sayısı veya kesim işlemi sayısı sorulmaktadır.",ebob_ekok,3,sematik,ornek,0.8
+"Belirli bir kurala göre nöbet tutan veya sefere çıkan iki kişinin/aracın, başlangıçtan sonra kaçıncı kez veya ne zaman tekrar aynı anda bu eylemi gerçekleştireceğinin bulunması problemi.",ebob_ekok,3,resimli,ornek,0.8
+"Farklı kütlelere veya hacimlere sahip iki ürünün (çuval, bidon vb.), birbirine karıştırılmadan ve hiç artmayacak şekilde eşit büyüklükteki en az sayıda kaba paylaştırılması problemi.",ebob_ekok,3,resimli,ornek,0.8
+"Kenar uzunlukları verilen dikdörtgen şeklindeki kartonların veya fayansların, aralarında boşluk kalmayacak şekilde birleştirilerek en küçük alanlı karenin (veya zeminin) oluşturulması; parça sayısının bulunması.",ebob_ekok,4,geometrik_sekil,ornek,0.8
+Farklı uzunluklara veya sürelere sahip iki çubuğun/olayın (örn. reklam panosu aydınlatma süreleri veya iki farklı ürünün uzunlukları) eşlenmesi; en kısa sürede veya en küçük ortak uzunlukta buluşma anının/noktasının hesaplanması.,ebob_ekok,3,sematik,ornek,0.8
+"Kenar uzunlukları verilen dikdörtgen şeklindeki bir bahçenin veya zeminin etrafına/içine, köşelere de gelmek şartıyla eşit aralıklarla direk/ağaç dikilmesi veya fayans döşenmesi; en az malzeme sayısının bulunması problemi.",ebob_ekok,3,geometrik_sekil,ornek,0.8
+"Belirli aralıklarla tekrarlanan iki farklı durumun (sefer saatleri, nöbetleşme veya zil çalması gibi) gün içerisinde kaç kez aynı anda gerçekleştiğinin veya bir sonraki ortak zamanın hesaplanması problemi.",ebob_ekok,3,sematik,ornek,0.8
+"Farklı boyutlara sahip dikdörtgen şeklindeki parçaların veya alanların, aralarında boşluk kalmayacak şekilde birleştirilerek daha büyük bir kare veya dikdörtgen zemin oluşturulması; en az parça sayısının bulunması.",ebob_ekok,4,geometrik_sekil,ornek,0.8
+"Belirli aralıklarla tekrarlanan iki farklı işin veya durumun (ilaç alma, sefer saati vb.) başlangıçtan sonra kaçıncı kez veya ne zaman tekrar aynı ana denk geleceğinin hesaplanması problemi.",ebob_ekok,3,sematik,ornek,0.8
+"Kenar uzunlukları verilen bir alanın veya levhanın, hiç artmayacak şekilde eş kare parçalara ayrılması veya köşelerine de gelmek şartıyla eşit aralıklarla noktalanması/bölünmesi; parça/nokta sayısı sorulmaktadır.",ebob_ekok,4,geometrik_sekil,ornek,0.8
+"Farklı uzunluktaki iki tahta veya metal çubuğun, hiç parça artmayacak şekilde eşit uzunlukta en büyük parçalara ayrılması; oluşan parça sayısı veya her kesim işlemi için ödenen ücret üzerinden toplam maliyet hesabı sorulmaktadır.",ebob_ekok,3,sematik,ornek,0.8
+Belirli bir kurala göre (örneğin 3'ün ve 4'ün pozitif tam sayı katları olan) numaralandırılmış kutuların veya koltukların seçilmesi/boyanması; hem 3'ün hem 4'ün katı olan (ortak kat) numaraların tespit edilmesi problemi.,ebob_ekok,4,sematik,ornek,0.8
+"Verilen bir kurala göre (örneğin iki farklı ürünün raf/kutu dizilimi veya sayısal eşleşmesi) yapılan yerleştirme işleminde, belirli şartları (boşluk kalmama, eşit yükseklik vb.) sağlayan en küçük ortak katın veya değerin bulunması problemi.",ebob_ekok,4,sematik,ornek,0.8
+"Verilen iki farklı sayısal değerin (genellikle çuval ağırlıkları veya tank hacimleri), birbirine karıştırılmadan ve hiç artmayacak şekilde eşit büyüklükteki kaplara paylaştırılması; en az kap/paket sayısı sorulmaktadır.",ebob_ekok,3,resimli,ornek,0.8
+"Belirli bir kurala göre periyodik olarak tekrar eden iki farklı eylemin (örneğin iki farklı zilin çalması veya iki aracın sefer yapması), başlangıçtan sonraki ortak gerçekleşme zamanının (EKOK) hesaplanması problemi.",ebob_ekok,3,sematik,ornek,0.8
+"Verilen bir alana veya rafa, boyutları farklı iki veya daha fazla nesnenin (kutu, kitap, fayans vb.) belirli bir kurala göre (örneğin aralarında boşluk kalmadan veya belirli periyotlarla) yerleştirilmesi; alanın uzunluğunun veya kullanılan nesne sayısının hesaplanması problemi.",ebob_ekok,4,resimli,ornek,0.8
+Verilen iki doğal sayının en büyük ortak böleninin (EBOB) veya en küçük ortak katının (EKOK) bulunması ve bu değerlerle yapılan temel dört işlem sorusu.,aralarinda_asal,1,yok,baslangic,0.3
+"İki farklı sayısal değerin (kütle, uzunluk vb.) ebob'u kullanılarak, artmadan eş parçalara ayrılması durumunda oluşacak parça sayısının bulunması (Temel problem).",aralarinda_asal,2,yok,baslangic,0.3
+Belirli aralıklarla (dakika/saat) gerçekleşen iki basit olayın (zil çalması vb.) ilk kez veya ikinci kez ne zaman aynı anda gerçekleşeceğinin hesaplanması.,aralarinda_asal,2,sematik,baslangic,0.3
+"Kenar uzunlukları verilen dikdörtgen şeklindeki bir zeminin içine, hiç boşluk kalmayacak şekilde yerleştirilebilecek en büyük boyutlu eş karelerin sayısının bulunması.",aralarinda_asal,2,geometrik_sekil,baslangic,0.3
+Aralarında asallık veya çarpan özellikleri verilen iki sayının EBOB ve EKOK değerleri arasındaki ilişkinin sorgulandığı kural/kavram sorusu.,aralarinda_asal,1,yok,baslangic,0.3
+Verilen sayıların asal çarpanlarına ayrılmış hali üzerinden EBOB veya EKOK değerlerinin üslü ifadeler yardımıyla hesaplanması sorusu.,aralarinda_asal,1,sematik,baslangic,0.3
+"İki farklı ürünün (ceviz, bilye vb.) sayıları verilerek, bunların her bir pakette eşit sayıda olacak şekilde paketlenmesi için gereken en az paket sayısı hesabı.",aralarinda_asal,2,yok,baslangic,0.3
+Bir yolun veya caddenin iki tarafına belirli aralıklarla (örneğin 10m ve 15m) dikilen ağaçların/direklerin aynı hizaya geldiği noktaların sayısının bulunması.,aralarinda_asal,2,sematik,baslangic,0.3
+"Verilen iki sayının EKOK değerinin hesaplanarak, bu katın belirli bir aralıktaki (örneğin 100 ile 200 arası) katının bulunması sorusu.",aralarinda_asal,2,yok,baslangic,0.3
+Dikdörtgenler prizması veya kare prizma şeklindeki kutuların birleştirilerek en küçük hacimli küpün oluşturulması için gereken kutu sayısı sorusu.,aralarinda_asal,2,geometrik_sekil,baslangic,0.3
+a ve b aralarında asal sayılardır ve a/b = 36/60 olduğuna göre hangisinin yanlış olduğu sorulmaktadır,aralarinda_asal,1,yok,baslangic,0.3
+x 9'dan küçük pozitif tam sayı olmak üzere x ile (x+3) aralarında asal ise x'in alabileceği değerler toplamı,aralarinda_asal,2,yok,baslangic,0.3
+a ve b aralarında asal sayılar ve (a.b)/EBOB(a b) = 52 ise a+b'nin en büyük değeri,aralarinda_asal,2,yok,baslangic,0.3
+(a-1) ve (b+3) aralarında asal ve oranları 30/48 ise a+b kaçtır,aralarinda_asal,1,yok,baslangic,0.3
+(a-2) ile (b+5) aralarında asal ve oranları 18/42 ise a+b kaçtır,aralarinda_asal,1,yok,baslangic,0.3
+Asal çarpanlarına ayrılmış a b c d sayılarından hangi ikisinin aralarında asal olduğu sorulmaktadır,aralarinda_asal,2,yok,baslangic,0.3
+a çift ve a ile b aralarında asal ise b hakkında verilen ifadelerden hangisi doğrudur,aralarinda_asal,2,yok,baslangic,0.3
+K L M N kutularına üzerinde sayılar yazan pullar atılıyor kutu ve pul numaraları aralarında asal olmalı,aralarinda_asal,3,sematik,baslangic,0.3
+Üzerinde sayı yazan bilyeler aralarında asal olacak şekilde gruplandırılıyor mavi bilyenin numarası soruluyor,aralarinda_asal,3,resimli,ornek,0.8
+Dikdörtgen kâğıtlar katlanarak kenarları aralarında asal dikdörtgenler elde ediliyor çevre uzunluğu soruluyor,aralarinda_asal,4,geometrik_sekil,ornek,0.8
+Uzunlukları verilen tahtalar parçalanıyor parça uzunlukları aralarında asal olma durumu inceleniyor,aralarinda_asal,4,sematik,ornek,0.8
+Alanları 72 ve 60 cm² olan dikdörtgenler birleştiriliyor kenarlar aralarında asal ise çevre en az kaçtır,aralarinda_asal,3,geometrik_sekil,ornek,0.8
+İki kutudaki toplar yer değiştiriliyor çarpımları K ve L aralarında asal ise K+L en az kaçtır,aralarinda_asal,4,sematik,ornek,0.8
+9 karelik tabloda komşu karelerle aralarında asal sayılar yerleştirilerek mor karelerdeki sayıların toplamı bulunuyor,aralarinda_asal,4,sematik,ornek,0.8
+9 karelik tabloda komşu karelerle aralarında asal sayılarla kırmızı karenin değeri hesaplanıyor,aralarinda_asal,4,sematik,ornek,0.8
+Dolap raflarındaki klasör numaraları aralarında asal ve iki asal çarpanlı fark en çok kaç olabilir,aralarinda_asal,3,resimli,ornek,0.8
+Yayların uzama miktarları aralarında asal II. yayın son uzunluğu ne olabilir,aralarinda_asal,3,resimli,ornek,0.8
+Video oynatıcıda izlenen ve kalan sürelerin dakika/saniye kısımları aralarında asal olacak anı bulma,aralarinda_asal,3,resimli,ornek,0.8
+Şifreli kilitte rakamlar çevrilerek aralarında asal iki basamaklı sayılarla şifre oluşturuluyor,aralarinda_asal,3,resimli,ornek,0.8
+Karelere 3 5 7 9 11 sayıları yazılıyor bağlı kareler aralarında asal boyalı kareye gelebilecek toplam,aralarinda_asal,3,sematik,ornek,0.8
+6A ve B8 iki basamaklı sayıları için aralarında asallık şartlarını sağlayan A+B değerleri kaç tanedir,aralarinda_asal,2,yok,ornek,0.8
+A ve B cisimleri teraziye konuyor toplam kütle 2.. gram ise A cisminin kütlesi kaçtır,ebob_ekok,4,resimli,cikmis,1.0
+4g ve 28g bilyeler torbalara eşit kütlede dağıtılıyor toplam bilye sayısı en az kaçtır,ebob_ekok,4,sematik,cikmis,1.0
+Efe ve Kuzey bilyelerini 3 ve 4 torbaya eşit dağıtıyor değişim sonrası en az bilye sayısı,ebob_ekok,4,sematik,cikmis,1.0
+İki un çuvalına (46kg 12kg) un eklenince miktarlar aralarında asal oluyor eklenen miktarlar hangisidir,aralarinda_asal,3,resimli,cikmis,1.0
+40 sayısının çarpanları gruplanıyor grupların toplamı eşit ise B grubundaki en küçük sayı kaçtır,carpanlar,3,tablo,cikmis,1.0
+Zeynep ve Kuzey'in kalem çarpanları ağaç şemasıyla verilmiş kalan kalem sayısı soruluyor,carpanlar,3,sematik,cikmis,1.0
+Dikdörtgen kâğıt bölgelere ayrılmış (35 44 21 cm² vb.) tüm alan ne olabilir,ebob_ekok,4,geometrik_sekil,cikmis,1.0
+Dairelere sayılar yazılıyor köşelerdeki çarpım ortadaki sayıya eşit ve aralarında asal A+B en az kaçtır,aralarinda_asal,4,geometrik_sekil,cikmis,1.0
+k 3k 5k 7k yüksekliğindeki kutularla kule yapılıyor en üstteki alınınca yükseklik hangisi olamaz,ebob_ekok,5,sematik,cikmis,1.0
+30 TL ve 50 TL'lik kedi mamalarından eşit paket bağışlanıyor toplam harcama soruluyor,ebob_ekok,3,sematik,cikmis,1.0
+40 kg'dan az çuvallar kantarda 720 kg geliyor ekleme yapılınca 1344 kg oluyor eklenen çuval sayısı,ebob_ekok,4,resimli,cikmis,1.0
+3g ve 5g boncuklardan kolye yapılıyor toplam kütle 230g'dan az ise boncuk farkı en fazla kaçtır,ebob_ekok,3,yok,cikmis,1.0
+Alanları verilen kartonlar (35 77 110) 3 cm üst üste yapıştırılıyor yeni alan en fazla kaç olur,ebob_ekok,5,geometrik_sekil,cikmis,1.0
+Kat planında alanlar verilmiş verilmeyen alanların toplamı en az kaç metrekaredir,ebob_ekok,5,geometrik_sekil,cikmis,1.0

@@ -45,6 +45,11 @@ from .diversity_service import (
 from .combination_selector import (
     CombinationSelector,
 )
+from .config_loader import (
+    ConfigLoader,
+    load_configs_from_env,
+    load_questions_from_env,
+)
 
 __all__ = [
     # Embedding
@@ -84,4 +89,8 @@ __all__ = [
     "DiverseQuestionGenerator",
     # Selector
     "CombinationSelector",
+    # Config
+    "ConfigLoader",
+    "load_configs_from_env",
+    "load_questions_from_env",
 ]

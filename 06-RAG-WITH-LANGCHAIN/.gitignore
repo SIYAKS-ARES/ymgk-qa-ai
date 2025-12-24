@@ -1,8 +1,10 @@
-# Environment variables
-.env
-06-RAG-WITH-LANGCHAIN/.env
+# =============================================================================
+# LGS RAG System - Git Ignore
+# =============================================================================
 
+# =============================================================================
 # Python
+# =============================================================================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -24,37 +26,131 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual environments
+# =============================================================================
+# Virtual Environments
+# =============================================================================
 venv/
-env/
 ENV/
-.venv
+env/
+.venv/
+.conda/
 
-# IDE
-.vscode/
+# =============================================================================
+# IDE and Editor
+# =============================================================================
 .idea/
+.vscode/
 *.swp
 *.swo
 *~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# =============================================================================
+# Environment and Secrets
+# =============================================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*_key.json
+secrets/
+credentials/
 
-# Vector stores
-vectorstore/
-*.index
-*.pkl
+# =============================================================================
+# Testing
+# =============================================================================
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# =============================================================================
+# Type Checking
+# =============================================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =============================================================================
+# Data and Models
+# =============================================================================
+# Vector store (large files)
+vectorstore/*.index
+vectorstore/*.pkl
+vectorstore/*.bin
 
 # Generated data
 data/generated_questions/*.json
+data/generated_questions/*.jsonl
+data/logs/*.log
+
+# Manim generated files
 generated_visuals/*.mp4
+generated_visuals/*.gif
 generated_visuals/*.png
+media/
 
-# Logs
-*.log
-logs/
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
 
-# OS
+# =============================================================================
+# Jupyter Notebooks
+# =============================================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# =============================================================================
+# Build and Distribution
+# =============================================================================
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =============================================================================
+# OS Specific
+# =============================================================================
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+*.lnk
 
+# =============================================================================
+# Docker
+# =============================================================================
+docker/data/
+.docker/
+
+# =============================================================================
+# Misc
+# =============================================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+.cache/
+tmp/
+temp/
+
+# Keep directories with .gitkeep
+!.gitkeep
+!*/.gitkeep

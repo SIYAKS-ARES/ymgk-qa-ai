@@ -45,6 +45,7 @@ class GenerateResponse(BaseModel):
     success: bool = Field(..., description="Basarili mi")
     data: Optional[GeneratedQuestion] = Field(default=None, description="Uretilen soru")
     error: Optional[str] = Field(default=None, description="Hata mesaji")
+    raw_response: Optional[str] = Field(default=None, description="Ham LLM ciktisi (hata durumunda)")
     metadata: Optional[dict] = Field(default=None, description="Ek bilgiler")
 
 

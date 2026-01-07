@@ -137,6 +137,80 @@ class AnthropicClient(BaseLLMClient):
         return response.content[0].text
 
 
+class GeminiClient(BaseLLMClient):
+    """Google Gemini modelleri icin client - yeni google.genai SDK kullanir"""
+
+    def __init__(
+        self,
+        api_key: Optional[str] = None,
+        model: Optional[str] = None,
+    ):
+        self.api_key = api_key or settings.gemini_api_key
+        self.model_name = model or settings.llm_model
+
+        if self.api_key:
+            try:
+                from google import genai
+                from google.genai import types
+
+                self.client = genai.Client(api_key=self.api_key)
+                self._types = types
+            except ImportError:
+                self.client = None
+                self._types = None
+        else:
+            self.client = None
+            self._types = None
+
+    @retry(
+        stop=stop_after_attempt(3),
+        wait=wait_exponential(multiplier=1, min=2, max=30),
+    )
+    async def generate(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        temperature: float = 0.7,
+        max_tokens: int = 2000,
+    ) -> str:
+        """Gemini API ile yanit al"""
+        if self.client is None:
+            raise ValueError("Gemini client baslatilmadi. GEMINI_API_KEY veya kutuphane eksik.")
+
+        def _call_model() -> str:
+            try:
+                response = self.client.models.generate_content(
+                    model=self.model_name,
+                    contents=[
+                        self._types.Content(
+                            role="user",
+                            parts=[self._types.Part(text=f"{system_prompt}\n\n{user_prompt}")]
+                        )
+                    ],
+                    config=self._types.GenerateContentConfig(
+                        temperature=temperature,
+                        max_output_tokens=max_tokens,
+                        # Cevabin saf JSON olmasini zorla
+                        response_mime_type="application/json",
+                    ),
+                )
+                result = response.text
+                print(f"[GeminiClient] Raw response (first 500 chars): {result[:500]}")
+                # Finish reason ve usage bilgisini log'la
+                if hasattr(response, 'candidates') and response.candidates:
+                    candidate = response.candidates[0]
+                    if hasattr(candidate, 'finish_reason'):
+                        print(f"[GeminiClient] Finish reason: {candidate.finish_reason}")
+                if hasattr(response, 'usage_metadata'):
+                    print(f"[GeminiClient] Usage: {response.usage_metadata}")
+                return result
+            except Exception as e:
+                print(f"[GeminiClient] generate_content hatasi: {e!r}")
+                raise ValueError(f"Gemini generate_content hatasi: {e!r}")
+
+        return await asyncio.to_thread(_call_model)
+
+
 class LLMClientFactory:
     """
     LLM Client factory pattern
@@ -169,6 +243,8 @@ class LLMClientFactory:
                 cls._instances[cache_key] = OpenAIClient(**kwargs)
             elif provider == "anthropic":
                 cls._instances[cache_key] = AnthropicClient(**kwargs)
+            elif provider == "gemini":
+                cls._instances[cache_key] = GeminiClient(**kwargs)
             else:
                 raise ValueError(f"Desteklenmeyen provider: {provider}")
 
@@ -213,7 +289,19 @@ def parse_llm_response(response: str) -> dict:
         else:
             response = response[start:end].strip()
 
-    return json.loads(response)
+    # Bazi LLM'ler JSON'dan once/sonra aciklama yazabiliyor, sadece { } arasini al
+    if '{' in response and '}' in response:
+        start = response.find('{')
+        # Son } karakterini bul
+        end = response.rfind('}') + 1
+        response = response[start:end]
+
+    try:
+        return json.loads(response)
+    except json.JSONDecodeError as e:
+        print(f"[parse_llm_response] JSON parse hatasi: {e}")
+        print(f"[parse_llm_response] Problematic response (first 1000 chars): {response[:1000]}")
+        raise
 
 
 # Default client instance

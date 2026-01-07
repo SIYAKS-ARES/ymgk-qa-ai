@@ -31,7 +31,7 @@ wheels/
 # =============================================================================
 venv/
 ENV/
-env/
+.env/
 .venv/
 .conda/
 
@@ -154,3 +154,4 @@ temp/
 # Keep directories with .gitkeep
 !.gitkeep
 !*/.gitkeep
+06-RAG-WITH-LANGCHAIN/.env

@@ -23,49 +23,18 @@ class PromptBuilder:
         self._style_variations = self._get_style_variations()
 
     def _build_system_prompt(self) -> str:
-        """LGS soru yazari sistem promptu"""
-        return """Sen, LGS (Liseye Gecis Sinavi) matematik sorulari yazan uzman bir egitimcisin.
+        """Tam LGS sorusu (hikaye + soru + secenekler + cozum) icin system prompt"""
+        return """Sen 8. sinif LGS matematik ogretmenisin.
 
-## Rol ve Gorev
-- 8. sinif ogrencilerine yonelik matematik sorulari yaziyorsun
-- Sorular MEB mufredat ve LGS formatlarina tam uygun olmali
-- Her soru tek dogru cevapli, 4 secenekli (A, B, C, D) olmali
+Gorevin, verilen konu ve zorluk seviyesine uygun COK KALITELI bir LGS matematik sorusu olusturmaktir.
 
-## Konu Alani: Carpanlar ve Katlar
-Asagidaki alt konularda soru yazabilirsin:
-1. **carpanlar**: Bir dogal sayinin carpanlari, asal carpanlar, carpan sayisi
-2. **ebob_ekok**: En buyuk ortak bolen, en kucuk ortak kat, problemler
-3. **aralarinda_asal**: Aralarinda asal sayilar, ozellikler
-
-## LGS Soru Ozellikleri
-1. **Hikaye/Baglam**: Gercek hayat senaryolari (alisveris, paylasim, zaman, geometri)
-2. **Cok Adimli**: 2-4 adim cozum gerektiren yapilar
-3. **Yaniltici Secenekler**: Dikkat gerektiren, mantikli yanlis secenekler
-4. **Gorsel Destek**: Gerektiginde tablo, sema, sekil aciklamasi
-
-## Zorluk Seviyeleri
-| Seviye | Aciklama | Adim Sayisi |
-|--------|----------|-------------|
-| 1 | Temel kavram, dogrudan uygulama | 1 |
-| 2 | Iki islemli, basit problem | 2 |
-| 3 | Orta karmasiklik, mantik gerektiren | 2-3 |
-| 4 | Ileri duzey, cok adimli | 3-4 |
-| 5 | Olimpiyat tarzi, en zor | 4+ |
-
-## Gorsel Tipi Kurallari
-- **yok**: Gorsel aciklama verme
-- **tablo**: Satirlar, sutunlar ve basliklar iceren tablo tanimla
-- **sematik**: Ok, kutu, iliskiler iceren sema tanimla
-- **geometrik_sekil**: Uzunluk, alan, cevre iceren sekil tanimla
-- **resimli**: Gercek hayat objelerini icerecek sekilde tanimla
-
-## Cikti Kurallari
-1. JSON formatinda yanit ver
-2. Turkce dil kurallarina uy
-3. Matematiksel notasyon dogru kullan (^, sqrt, x, vb.)
-4. Secenekler arasi mantikli aralik birak
-5. Cozum adimlarini acik yaz
-6. SADECE istenen JSON ciktisini ver, baska aciklama ekleme"""
+Kurallar:
+- Soru mutlaka gercek hayata dayali KISA bir hikaye icerir.
+- Hikayeden sonra tek bir coktan secmeli soru sor.
+- En az 4 secenek ver (A, B, C, D). Istersen E secenegi de ekleyebilirsin.
+- Sadece BIR dogru cevap olsun.
+- Cozum adim adim, ogrenci anlayacak sekilde aciklanmalidir.
+- Cevap formatin HER ZAMAN JSON olacak (hikaye, soru, secenekler, dogru_cevap, cozum alanlari)."""
 
     def _get_style_variations(self) -> list[str]:
         """Cesitlilik icin stil varyasyonlari"""
@@ -93,82 +62,54 @@ Asagidaki alt konularda soru yazabilirsin:
         formatted_examples: str,
         additional_instructions: Optional[str] = None,
     ) -> str:
-        """
-        Kullanici promptu olustur
-        
-        Args:
-            combination: Hedef kombinasyon
-            formatted_examples: Formatlanmis ornek sorular
-            additional_instructions: Ek talimatlar (stil, vb.)
-            
-        Returns:
-            User prompt string
-        """
-        prompt_parts = []
-
-        # Gorev tanimi
-        prompt_parts.append(
-            "Asagidaki kombinasyona uygun YENI ve OZGUN bir LGS matematik sorusu uret."
-        )
-        prompt_parts.append("")
-
-        # Ornekler
-        prompt_parts.append(formatted_examples)
-        prompt_parts.append("")
-
-        # Ozel talimatlar
-        if additional_instructions:
-            prompt_parts.append("## Ek Talimatlar")
-            prompt_parts.append(additional_instructions)
-            prompt_parts.append("")
-
-        # Cikti formati
-        prompt_parts.append("## Beklenen JSON Ciktisi")
-        prompt_parts.append(self._get_output_format())
-        prompt_parts.append("")
-
-        # Onemli uyarilar
-        prompt_parts.append("## Onemli Uyarilar")
-        prompt_parts.append("- Orneklerden FARKLI, tamamen yeni bir soru uret")
-        prompt_parts.append("- Sayilari, hikayeyi ve baglami degistir")
-        prompt_parts.append(f"- Zorluk seviyesi {combination.get('zorluk', 3)}/5 olmali")
-
+        """Tam soru uretimi icin user prompt"""
+        alt_konu = combination.get("alt_konu", "ebob_ekok")
+        zorluk = combination.get("zorluk", 3)
         gorsel_tipi = combination.get("gorsel_tipi", "yok")
-        if gorsel_tipi != "yok":
-            prompt_parts.append(
-                f"- {gorsel_tipi} tipinde gorsel icin DETAYLI aciklama ver"
-            )
-        else:
-            prompt_parts.append("- gorsel_aciklama alanini null yap")
 
-        prompt_parts.append("- Sadece JSON ciktisi ver, baska aciklama ekleme")
+        extra = additional_instructions or ""
 
-        return "\n".join(prompt_parts)
+        # Not: formatted_examples RAG tarafindan hazirlansa da, token tasarrufu icin
+        # burada gondermiyoruz. Sadece konu, zorluk ve stil talimati ile calisiyoruz.
+
+        return f"""Konu: {alt_konu}
+    Zorluk: {zorluk}/5
+    Gorsel tipi: {gorsel_tipi}
+
+    Gorevin:
+- Bu konuya ve zorluga uygun, gercek hayat senaryolu bir hikaye yaz.
+- Hikayeden sonra KONUYU ODAK ALAN tek bir coktan secmeli soru yaz.
+- En az A, B, C, D olmak uzere 4 secenek yaz.
+- Sadece bir dogru cevap olsun.
+- Cozumu adim adim, aciklayici sekilde yaz.
+- Eger gorsel_tipi "yok" degilse, gorselin nasil olacagini aciklayan KISA bir ifade yaz.
+
+Ek stil talimati (opsiyonel, bos olabilir): {extra}
+
+Sadece asagidaki JSON formatinda cevap ver. JSON disinda hicbir aciklama yazma:
+
+{self._get_output_format()}"""
 
     def _get_output_format(self) -> str:
-        """JSON cikti formati sablonu"""
-        return """```json
+                """Tam soru JSON formati"""
+                return """```json
 {
-  "hikaye": "Sorunun gercek hayat baglami/hikayesi...",
-  "soru": "Asil soru metni (Buna gore... ile bitebilir)",
-  "gorsel_aciklama": "Gorsel tipi 'yok' degilse detayli gorsel tanimi, degilse null",
-  "secenekler": {
-    "A": "Secenek A degeri",
-    "B": "Secenek B degeri",
-    "C": "Secenek C degeri",
-    "D": "Secenek D degeri"
-  },
-  "dogru_cevap": "A/B/C/D",
-  "cozum": [
-    "Adim 1: Ilk islem aciklamasi",
-    "Adim 2: Ikinci islem aciklamasi",
-    "Adim 3: Sonuc"
-  ],
-  "kontroller": {
-    "tek_dogru_mu": true,
-    "format_ok": true,
-    "secenek_sayisi": 4
-  }
+    "hikaye": "Gercek hayat senaryolu, kisa matematik hikayesi.",
+    "soru": "Hikayeye uygun coktan secmeli soru metni.",
+    "gorsel_aciklama": "Eger varsa, gorselin kisaca aciklamasi (yok ise null).",
+    "secenekler": {
+        "A": "A secenegi metni",
+        "B": "B secenegi metni",
+        "C": "C secenegi metni",
+        "D": "D secenegi metni"
+    },
+    "dogru_cevap": "A",
+    "cozum": [
+        "1. adim: ...",
+        "2. adim: ...",
+        "3. adim: ..."
+    ],
+    "kontroller": null
 }
 ```"""
 

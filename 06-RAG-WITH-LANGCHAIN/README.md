@@ -72,28 +72,54 @@ Bu dizin, LGS (Liseye Gecis Sinavi) matematik sorulari ureten RAG (Retrieval-Aug
 
 ## Kurulum
 
-### 1. Conda Ortami Olusturma
+### 1. Python ortami (venv ile)
 
 ```bash
 cd 06-RAG-WITH-LANGCHAIN
 
-# Conda ortami olustur
-conda env create -f environment.yml
-conda activate lgs-rag
+# Sanal ortam olustur (Python 3.11+ onerilir)
+python -m venv .venv
+
+# Windows
+.venv\\Scripts\\activate
+
+# macOS / Linux
+source .venv/bin/activate
+
+# Bagimliliklari kur
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
-### 2. Ortam Degiskenlerini Ayarla
+> Not: Istersen `environment.yml` ile conda ortami da olusturabilirsin, ancak bu README venv akisini referans alir.
+
+### 2. Ortam Degiskenlerini Ayarla (.env)
 
 ```bash
 # .env dosyasi olustur
 cp env.example .env
 
-# .env dosyasini duzenle ve API anahtarini ekle
-nano .env
-# OPENAI_API_KEY="sk-your-key-here"
+# .env dosyasini duzenle
+# En azindan su alanlari doldur:
+#   GEMINI_API_KEY=...
+#   LLM_PROVIDER=gemini
+#   LLM_MODEL=gemini-2.5-flash
 ```
 
-### 3. Vector Store Olustur
+Önemli noktalar:
+- `GEMINI_API_KEY` hem `.env`'den hem de sistem ortam degiskeninden okunabilir.
+- Eger PowerShell oturumunda `$Env:GEMINI_API_KEY` tanimliysa, **.env'deki degeri ezer**.
+- Sadece .env kullanimak istiyorsan, oturumda `GEMINI_API_KEY` ortam degiskeni olmamasina dikkat et.
+
+### 3. Gemini API key'ini test et (opsiyonel ama tavsiye edilir)
+
+```bash
+python scripts/test_gemini_key.py
+```
+
+Bu script sizden API key, model adi (varsayilan: `gemini-2.5-flash`) ve kisa bir prompt ister ve Gemini'den donen cevabi ve token istatistiklerini yazdirir.
+
+### 4. Vector Store Olustur
 
 ```bash
 python scripts/init_vectorstore.py
@@ -117,6 +143,12 @@ API Dokumantasyonu: http://localhost:8000/docs
 
 ```bash
 python scripts/test_generation.py
+```
+
+Ek olarak, Gemini modeli ve mevcut modellar hakkinda bilgi almak icin:
+
+```bash
+python scripts/list_gemini_models.py
 ```
 
 ### LangChain ile Kullanim
@@ -236,13 +268,14 @@ ruff format src/
 ## Bagimlilklar
 
 Ana bagimliliklar:
-- `langchain`, `langchain-openai` - RAG framework
 - `faiss-cpu` - Vector index
-- `sentence-transformers` - Turkce embedding
-- `openai` - LLM API
+- `sentence-transformers` - Turkce embedding modeli
+- `google-genai` - Gemini LLM API client'i (su anki varsayilan LLM)
+- `openai` (opsiyonel) - Alternatif LLM destegi icin
 - `fastapi`, `uvicorn` - API sunucu
 - `manim` - Gorsel uretim
-- `pydantic`, `pydantic-settings` - Veri modelleri
+- `pydantic`, `pydantic-settings` - Veri modelleri ve konfigurasyon
+- `numpy`, `pandas` - Veri isleme
 
 ## Lisans
 

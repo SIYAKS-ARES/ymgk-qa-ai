@@ -15,10 +15,11 @@ class Settings(BaseSettings):
     # LLM Settings
     openai_api_key: str = Field(default="", env="OPENAI_API_KEY")
     anthropic_api_key: str | None = Field(None, env="ANTHROPIC_API_KEY")
-    llm_provider: Literal["openai", "anthropic"] = Field("openai", env="LLM_PROVIDER")
+    gemini_api_key: str | None = Field(None, env="GEMINI_API_KEY")
+    llm_provider: Literal["openai", "anthropic", "gemini"] = Field("openai", env="LLM_PROVIDER")
     llm_model: str = Field("gpt-4-turbo-preview", env="LLM_MODEL")
     llm_temperature: float = Field(0.7, env="LLM_TEMPERATURE")
-    llm_max_tokens: int = Field(2000, env="LLM_MAX_TOKENS")
+    llm_max_tokens: int = Field(4000, env="LLM_MAX_TOKENS")
 
     # Embedding Settings
     embedding_model: str = Field("text-embedding-3-small", env="EMBEDDING_MODEL")
@@ -54,6 +55,10 @@ class Settings(BaseSettings):
     api_port: int = Field(8000, env="API_PORT")
     api_workers: int = Field(4, env="API_WORKERS")
     debug: bool = Field(False, env="DEBUG")
+
+    # Rate Limiting (opsiyonel)
+    rate_limit_rpm: int | None = Field(None, env="RATE_LIMIT_RPM")
+    rate_limit_tpm: int | None = Field(None, env="RATE_LIMIT_TPM")
 
     # Logging Settings
     log_level: Literal["DEBUG", "INFO", "WARNING", "ERROR"] = Field(

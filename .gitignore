@@ -1,1 +1,4 @@
 .DS_Store
+
+# Proje altinda yerel ortam dosyalari
+06-RAG-WITH-LANGCHAIN/.env

@@ -6,6 +6,7 @@ LGS RAG Soru Uretim API'si
 from contextlib import asynccontextmanager
 from datetime import datetime
 from pathlib import Path
+import json
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -81,7 +82,8 @@ async def lifespan(app: FastAPI):
         # Retriever
         retriever = QuestionRetriever(pipeline, filter_service)
 
-        # LLM Client
+        # LLM Client (cache'i temizle, sonra yeni instance olustur)
+        LLMClientFactory.clear_cache()
         llm_client = LLMClientFactory.create()
 
         # Generator
@@ -92,8 +94,21 @@ async def lifespan(app: FastAPI):
             llm_client=llm_client,
         )
 
-        # Combination selector (mock config ile)
-        config = ConfigSchema.create_mock()
+        # Combination selector (configs.json varsa onu kullan, yoksa mock)
+        config_path = Path(settings.configs_path)
+        if config_path.exists():
+            try:
+                with open(config_path, "r", encoding="utf-8") as f:
+                    config_data = json.load(f)
+                config = ConfigSchema(**config_data)
+                print(f"Config yuklendi: {config_path}")
+            except Exception as e:
+                print(f"Config dosyasi okunamadi, mock config kullaniliyor: {e}")
+                config = ConfigSchema.create_mock()
+        else:
+            print(f"Config dosyasi bulunamadi, mock config kullaniliyor: {config_path}")
+            config = ConfigSchema.create_mock()
+
         _selector = CombinationSelector(config)
 
         # Diversity service
@@ -221,6 +236,7 @@ async def generate_question(request: GenerateRequest):
         return GenerateResponse(
             success=False,
             error=str(e),
+            raw_response=getattr(e, 'raw_response', None),
             metadata={"combination": combination if "combination" in locals() else None},
         )
     except Exception as e:

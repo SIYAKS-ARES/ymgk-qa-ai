@@ -14,6 +14,8 @@ from .retriever import QuestionRetriever
 from .output_formatter import RAGOutputFormatter
 from .prompt_builder import PromptBuilder
 from .llm_client import BaseLLMClient, parse_llm_response
+from tenacity import RetryError
+from ..config import settings
 
 
 class QuestionGenerationError(Exception):
@@ -66,7 +68,7 @@ class QuestionGenerator:
         self,
         combination: dict,
         style_instruction: Optional[str] = None,
-        max_attempts: int = 3,
+        max_attempts: int = 1,
     ) -> GeneratedQuestion:
         """
         Tek soru uret
@@ -104,6 +106,7 @@ class QuestionGenerator:
 
         # Step 4 & 5: Generate with retry
         last_error = None
+        raw_llm_response = None
         for attempt in range(max_attempts):
             try:
                 # Temperature: her denemede biraz artir
@@ -114,9 +117,11 @@ class QuestionGenerator:
                     system_prompt=system_prompt,
                     user_prompt=user_prompt,
                     temperature=temperature,
+                    max_tokens=settings.llm_max_tokens,
                 )
+                raw_llm_response = response  # Ham yaniti sakla
 
-                # Parse JSON
+                # Parse JSON (tam soru formati bekleniyor)
                 question_data = parse_llm_response(response)
 
                 # Validate
@@ -149,66 +154,47 @@ class QuestionGenerator:
                 last_error = f"JSON parse hatasi: {e}"
             except ValidationError as e:
                 last_error = f"Validasyon hatasi: {e}"
+            except RetryError as e:
+                # tenacity RetryError icindeki son hatayi cikart
+                inner = e.last_attempt.exception()
+                last_error = f"LLM retry hatasi: {inner!r}"
             except Exception as e:
                 last_error = f"Beklenmeyen hata: {e}"
 
-        raise QuestionGenerationError(
+        error = QuestionGenerationError(
             f"Max {max_attempts} deneme sonrasi basarisiz. Son hata: {last_error}"
         )
+        error.raw_response = raw_llm_response  # Ham yaniti exception'a ekle
+        raise error
 
     def _validate_question(self, data: dict, combination: dict):
-        """
-        Uretilen soruyu dogrula
-        
-        Args:
-            data: LLM ciktisi
-            combination: Hedef kombinasyon
-            
-        Raises:
-            ValidationError: Validasyon basarisiz
-        """
-        errors = []
-
+        """Tam soru validasyonu"""
         # Zorunlu alanlar
-        required_fields = ["hikaye", "soru", "secenekler", "dogru_cevap", "cozum"]
-        for field in required_fields:
-            if field not in data or not data[field]:
-                errors.append(f"Eksik alan: {field}")
+        hikaye = data.get("hikaye", "").strip()
+        soru = data.get("soru", "").strip()
+        secenekler = data.get("secenekler", {}) or {}
+        dogru_cevap = str(data.get("dogru_cevap", "")).strip()
+        cozum = data.get("cozum", []) or []
 
-        # Secenek kontrolu
-        if "secenekler" in data:
-            secenekler = data["secenekler"]
-            if len(secenekler) != 4:
-                errors.append(f"4 secenek olmali, {len(secenekler)} var")
+        if not hikaye:
+            raise ValidationError("Eksik alan: hikaye")
 
-            expected_keys = {"A", "B", "C", "D"}
-            if set(secenekler.keys()) != expected_keys:
-                errors.append("Secenekler A, B, C, D olmali")
+        if not soru:
+            raise ValidationError("Eksik alan: soru")
 
-        # Dogru cevap kontrolu
-        if "dogru_cevap" in data:
-            dc = data["dogru_cevap"]
-            if dc not in ["A", "B", "C", "D"]:
-                errors.append(f"Gecersiz dogru_cevap: {dc}")
+        if not isinstance(secenekler, dict) or len(secenekler) < 4:
+            raise ValidationError("Eksik veya hatali alan: secenekler (en az A,B,C,D olmali)")
 
-            if "secenekler" in data and dc not in data["secenekler"]:
-                errors.append("dogru_cevap seceneklerde yok")
+        # Standart secenek harfleri
+        required_options = {"A", "B", "C", "D"}
+        if not required_options.issubset(set(secenekler.keys())):
+            raise ValidationError("Secenekler A, B, C, D icermeli")
 
-        # Cozum kontrolu
-        if "cozum" in data:
-            cozum = data["cozum"]
-            if not isinstance(cozum, list) or len(cozum) < 1:
-                errors.append("cozum en az 1 adim icermeli")
+        if not dogru_cevap or dogru_cevap not in secenekler:
+            raise ValidationError("dogru_cevap, secenekler'den biri olmali")
 
-        # Gorsel kontrolu
-        gorsel_tipi = combination.get("gorsel_tipi", "yok")
-        if gorsel_tipi != "yok":
-            if not data.get("gorsel_aciklama"):
-                # Uyari, hata degil
-                pass
-
-        if errors:
-            raise ValidationError(", ".join(errors))
+        if not isinstance(cozum, list) or len(cozum) == 0:
+            raise ValidationError("Eksik alan: cozum (en az bir adim olmali)")
 
     async def generate_batch(
         self,

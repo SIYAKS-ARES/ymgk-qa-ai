@@ -1,0 +1,337 @@
+{
+  "schema_version": "1.0",
+  "model_version": "lgs-struct-score-1.0",
+  "created_at": "2026-01-05 11:11:22",
+  "threshold": 0.75,
+  "min_examples": 3,
+  "total_combinations": 75,
+  "filtered_combinations": 40,
+  "selection_policy": {
+    "mode": "weighted_sampling",
+    "alpha": 2.0,
+    "temperature": 1.0,
+    "top_k": 30
+  },
+  "combinations": [
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 5,
+      "gorsel_tipi": "resimli",
+      "lgs_skor": 0.9979964835899866,
+      "coverage": 6,
+      "rank": 1
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 5,
+      "gorsel_tipi": "sematik",
+      "lgs_skor": 0.9973577099713203,
+      "coverage": 6,
+      "rank": 2
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 5,
+      "gorsel_tipi": "resimli",
+      "lgs_skor": 0.9970086683238631,
+      "coverage": 6,
+      "rank": 3
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 5,
+      "gorsel_tipi": "geometrik_sekil",
+      "lgs_skor": 0.9965405764627617,
+      "coverage": 6,
+      "rank": 4
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 5,
+      "gorsel_tipi": "resimli",
+      "lgs_skor": 0.9961260798326598,
+      "coverage": 40,
+      "rank": 5
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 5,
+      "gorsel_tipi": "tablo",
+      "lgs_skor": 0.9961234086805676,
+      "coverage": 6,
+      "rank": 6
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 5,
+      "gorsel_tipi": "sematik",
+      "lgs_skor": 0.9960561978309551,
+      "coverage": 6,
+      "rank": 7
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 5,
+      "gorsel_tipi": "sematik",
+      "lgs_skor": 0.9948940233820515,
+      "coverage": 40,
+      "rank": 8
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 5,
+      "gorsel_tipi": "geometrik_sekil",
+      "lgs_skor": 0.9948386519956326,
+      "coverage": 6,
+      "rank": 9
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 5,
+      "gorsel_tipi": "tablo",
+      "lgs_skor": 0.9942174420519014,
+      "coverage": 6,
+      "rank": 10
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 5,
+      "gorsel_tipi": "geometrik_sekil",
+      "lgs_skor": 0.993320092742914,
+      "coverage": 40,
+      "rank": 11
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 5,
+      "gorsel_tipi": "tablo",
+      "lgs_skor": 0.9925174866016412,
+      "coverage": 40,
+      "rank": 12
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 5,
+      "gorsel_tipi": "yok",
+      "lgs_skor": 0.9877452808123744,
+      "coverage": 6,
+      "rank": 13
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 4,
+      "gorsel_tipi": "resimli",
+      "lgs_skor": 0.9859195272261236,
+      "coverage": 14,
+      "rank": 14
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 5,
+      "gorsel_tipi": "yok",
+      "lgs_skor": 0.9817954001848744,
+      "coverage": 6,
+      "rank": 15
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 4,
+      "gorsel_tipi": "sematik",
+      "lgs_skor": 0.981501672816789,
+      "coverage": 14,
+      "rank": 16
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 4,
+      "gorsel_tipi": "resimli",
+      "lgs_skor": 0.9791019658688926,
+      "coverage": 12,
+      "rank": 17
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 5,
+      "gorsel_tipi": "yok",
+      "lgs_skor": 0.9765298224713037,
+      "coverage": 40,
+      "rank": 18
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 4,
+      "gorsel_tipi": "geometrik_sekil",
+      "lgs_skor": 0.97589951798383,
+      "coverage": 14,
+      "rank": 19
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 4,
+      "gorsel_tipi": "resimli",
+      "lgs_skor": 0.9730786897112735,
+      "coverage": 62,
+      "rank": 20
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 4,
+      "gorsel_tipi": "tablo",
+      "lgs_skor": 0.9730605566609636,
+      "coverage": 14,
+      "rank": 21
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 4,
+      "gorsel_tipi": "sematik",
+      "lgs_skor": 0.972604487810517,
+      "coverage": 12,
+      "rank": 22
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 4,
+      "gorsel_tipi": "sematik",
+      "lgs_skor": 0.9647758674026601,
+      "coverage": 62,
+      "rank": 23
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 4,
+      "gorsel_tipi": "geometrik_sekil",
+      "lgs_skor": 0.9644055672067956,
+      "coverage": 12,
+      "rank": 24
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 4,
+      "gorsel_tipi": "tablo",
+      "lgs_skor": 0.9602677784827501,
+      "coverage": 12,
+      "rank": 25
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 4,
+      "gorsel_tipi": "geometrik_sekil",
+      "lgs_skor": 0.9543439823185844,
+      "coverage": 62,
+      "rank": 26
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 4,
+      "gorsel_tipi": "tablo",
+      "lgs_skor": 0.9490982865960197,
+      "coverage": 62,
+      "rank": 27
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 4,
+      "gorsel_tipi": "yok",
+      "lgs_skor": 0.9188969672046358,
+      "coverage": 14,
+      "rank": 28
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 3,
+      "gorsel_tipi": "resimli",
+      "lgs_skor": 0.9077716844750636,
+      "coverage": 15,
+      "rank": 29
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 4,
+      "gorsel_tipi": "yok",
+      "lgs_skor": 0.8834638176084674,
+      "coverage": 12,
+      "rank": 30
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 3,
+      "gorsel_tipi": "sematik",
+      "lgs_skor": 0.8817745805701235,
+      "coverage": 15,
+      "rank": 31
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 3,
+      "gorsel_tipi": "resimli",
+      "lgs_skor": 0.8681752942939788,
+      "coverage": 11,
+      "rank": 32
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 4,
+      "gorsel_tipi": "yok",
+      "lgs_skor": 0.8539862893313367,
+      "coverage": 62,
+      "rank": 33
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 3,
+      "gorsel_tipi": "geometrik_sekil",
+      "lgs_skor": 0.8505686053124534,
+      "coverage": 15,
+      "rank": 34
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 3,
+      "gorsel_tipi": "resimli",
+      "lgs_skor": 0.8355504196493003,
+      "coverage": 56,
+      "rank": 35
+    },
+    {
+      "alt_konu": "aralarinda_asal",
+      "zorluk": 3,
+      "gorsel_tipi": "tablo",
+      "lgs_skor": 0.8354553173972477,
+      "coverage": 15,
+      "rank": 36
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 3,
+      "gorsel_tipi": "sematik",
+      "lgs_skor": 0.8330693169779031,
+      "coverage": 11,
+      "rank": 37
+    },
+    {
+      "alt_konu": "ebob_ekok",
+      "zorluk": 3,
+      "gorsel_tipi": "sematik",
+      "lgs_skor": 0.7938195278184905,
+      "coverage": 56,
+      "rank": 38
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 3,
+      "gorsel_tipi": "geometrik_sekil",
+      "lgs_skor": 0.7920394120456966,
+      "coverage": 11,
+      "rank": 39
+    },
+    {
+      "alt_konu": "carpanlar",
+      "zorluk": 3,
+      "gorsel_tipi": "tablo",
+      "lgs_skor": 0.7725892346128412,
+      "coverage": 11,
+      "rank": 40
+    }
+  ]
+}
